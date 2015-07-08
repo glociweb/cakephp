@@ -1,0 +1,271 @@
+2015-06-29 05:02:30 Error: [MissingModelException] Departments
+Request URL: /Eb/projectmanager/admin/department
+Stack Trace:
+#0 /var/www/Eb/projectmanager/app/Controller/DepartmentController.php(48): PaginatorComponent->paginate('Departments')
+#1 [internal function]: DepartmentController->admin_index()
+#2 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-06-29 05:27:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.dep_head' in 'field list'
+Request URL: /Eb/projectmanager/admin/department/index/
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Department), 'SELECT `User`.`...', Array)
+#5 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Department), Object(User), 'hasMany', 'User', Array, Array, true, Array, 0, Array)
+#6 /var/www/Eb/projectmanager/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Department), Array)
+#7 /var/www/Eb/projectmanager/app/Controller/DepartmentController.php(47): Model->find('all', Array)
+#8 [internal function]: DepartmentController->admin_index()
+#9 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#10 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-29 05:28:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.dep_head' in 'field list'
+Request URL: /Eb/projectmanager/admin/department/index/
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Department), 'SELECT `User`.`...', Array)
+#5 /var/www/Eb/projectmanager/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Department), Object(User), 'hasMany', 'User', Array, Array, true, Array, 0, Array)
+#6 /var/www/Eb/projectmanager/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Department), Array)
+#7 /var/www/Eb/projectmanager/app/Controller/DepartmentController.php(47): Model->find('all', Array)
+#8 [internal function]: DepartmentController->admin_index()
+#9 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#10 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-29 05:39:41 Error: [NotFoundException] Invalid user
+Request URL: /Eb/projectmanager/admin/users/view/5590ce15-3648-4d01-92e5-1a91c0a8011f
+Stack Trace:
+#0 [internal function]: UsersController->admin_view('5590ce15-3648-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 05:42:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/Eb/projectmanager/app/Controller/DepartmentController.php, line 78]
+2015-06-29 05:42:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 78, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 78, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:44:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/Eb/projectmanager/app/Controller/DepartmentController.php, line 79]
+2015-06-29 05:44:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:44:21 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/Eb/projectmanager/app/Controller/DepartmentController.php, line 79]
+2015-06-29 05:44:21 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:44:21 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/Eb/projectmanager/app/Controller/DepartmentController.php, line 79]
+2015-06-29 05:44:21 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 79, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:57:02 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/Eb/projectmanager/app/View/Department/admin_add.ctp, line 31]
+2015-06-29 05:57:02 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Eb/pro...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Eb/pro...', 31, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Eb/pro...', 31, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:57:12 Error: Fatal Error (1): Call to a member function input() on a non-object in [/var/www/Eb/projectmanager/app/View/Department/admin_add.ctp, line 31]
+2015-06-29 05:57:12 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /Eb/projectmanager/admin/department/add
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 31, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 31, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 05:58:13 Error: [NotFoundException] Invalid user
+Request URL: /Eb/projectmanager/admin/users/edit/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 [internal function]: UsersController->admin_edit('5590dd9e-2f74-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:00:35 Error: [MissingActionException] Action DepartmentController::admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'DepartmentController',
+  'action' => 'admin_view',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-29 06:00:41 Error: [MissingViewException] View file "/var/www/Eb/projectmanager/app/View/Department/admin_edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Eb/projectmanager/app/View/Department/admin_edit.ctp',
+)
+Request URL: /Eb/projectmanager/admin/department/edit/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:00:45 Error: [NotFoundException] Invalid Department
+Request URL: /Eb/projectmanager/admin/department/edit/5590dd9e-2f74-460e-aace-3361c0a8
+Stack Trace:
+#0 [internal function]: DepartmentController->admin_edit('5590dd9e-2f74-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:00:50 Error: [MissingViewException] View file "/var/www/Eb/projectmanager/app/View/Department/admin_edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Eb/projectmanager/app/View/Department/admin_edit.ctp',
+)
+Request URL: /Eb/projectmanager/admin/department/edit/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:10:15 Error: [MissingActionException] Action DepartmentController::admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'DepartmentController',
+  'action' => 'admin_view',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-29 06:10:45 Error: [MissingActionException] Action DepartmentController::admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'DepartmentController',
+  'action' => 'admin_view',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-29 06:11:18 Error: [MissingActionException] Action DepartmentController::admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'DepartmentController',
+  'action' => 'admin_view',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-29 06:13:13 Error: [MissingViewException] View file "/var/www/Eb/projectmanager/app/View/Department/admin_view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Eb/projectmanager/app/View/Department/admin_view.ctp',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:13:24 Error: [MissingViewException] View file "/var/www/Eb/projectmanager/app/View/Department/admin_view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Eb/projectmanager/app/View/Department/admin_view.ctp',
+)
+Request URL: /Eb/projectmanager/admin/department/view/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:24:13 Error: [MissingActionException] Action DepartmentController::admin_delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'DepartmentController',
+  'action' => 'admin_delete',
+)
+Request URL: /Eb/projectmanager/admin/department/delete/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-29 06:25:45 Error: [NotFoundException] Invalid Department
+Request URL: /Eb/projectmanager/admin/department/delete/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 [internal function]: DepartmentController->admin_delete('5590ddc7-8b04-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:26:10 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Eb/projectmanager/admin/department/delete/5590ddc7-8b04-4c61-9640-3cd2c0a8011f
+Stack Trace:
+#0 [internal function]: DepartmentController->admin_delete('5590ddc7-8b04-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-29 06:26:22 Error: Fatal Error (1): Call to a member function field() on a non-object in [/var/www/Eb/projectmanager/app/Controller/DepartmentController.php, line 146]
+2015-06-29 06:26:22 Error: [FatalErrorException] Call to a member function field() on a non-object
+Request URL: /Eb/projectmanager/admin/department/delete/5590de6d-6dc0-4020-bc04-3660c0a8011f
+Stack Trace:
+#0 /var/www/Eb/projectmanager/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Eb/pro...', 146)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Eb/pro...', 146, Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Eb/pro...', 146, Array)
+#3 /var/www/Eb/projectmanager/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-29 06:29:38 Error: [NotFoundException] Invalid Department
+Request URL: /Eb/projectmanager/admin/department/delete/5590dd9e-2f74-460e-aace-3361c0a8011f
+Stack Trace:
+#0 [internal function]: DepartmentController->admin_delete('5590dd9e-2f74-4...')
+#1 /var/www/Eb/projectmanager/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DepartmentController), Array)
+#2 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/Eb/projectmanager/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DepartmentController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb/projectmanager/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,0 +1,2546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Client Engage Project Platform v1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: ClientEngage <contact@clientengage.com>\n"
+"Language-Team:  <contact@clientengage.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:73
+#: Plugin/Installer/Controller/InstallationController.php:247
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} changed the progress of the phase {PhaseName} from {OldPercentage} to "
+"{NewPercentage}.\n"
+"\n"
+"You can view the affected project phase here: {PhaseUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:85
+#: Plugin/Installer/Controller/InstallationController.php:259
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} has created a new {CommentType} in the phase {PhaseName}.\n"
+"\n"
+"You can view the {CommentType} here: {CommentUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:97
+#: Plugin/Installer/Controller/InstallationController.php:271
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} has changed the status of a task in the phase {PhaseName} to "
+"{TaskStatus}.\n"
+"\n"
+"You can view the task here: {CommentUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}          \n"
+msgstr ""
+
+#: Controller/AppController.php:144;239
+msgid "You cannot perform any changes in the demonstration system"
+msgstr ""
+
+#: Controller/AppController.php:182
+msgid "Access not allowed."
+msgstr ""
+
+#: Controller/AttachmentsController.php:87
+msgid "Invalid attachment"
+msgstr ""
+
+#: Controller/AttachmentsController.php:91
+msgid "Attachment deleted"
+msgstr ""
+
+#: Controller/AttachmentsController.php:94
+msgid "Attachment was not deleted"
+msgstr ""
+
+#: Controller/ClientsController.php:62;83;130;168
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/ClientsController.php:104;136
+msgid "The client has been saved"
+msgstr ""
+
+#: Controller/ClientsController.php:108;140
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:172
+msgid "Client deleted"
+msgstr ""
+
+#: Controller/ClientsController.php:175
+msgid "Client was not deleted"
+msgstr ""
+
+#: Controller/CommentsController.php:87;226
+msgid "The comment has been saved"
+msgstr ""
+
+#: Controller/CommentsController.php:98;232
+msgid "The comment could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CommentsController.php:117
+msgid "task"
+msgstr ""
+
+#: Controller/CommentsController.php:117
+msgid "comment"
+msgstr ""
+
+#: Controller/CommentsController.php:161 View/Helper/LayoutHelper.php:596
+msgid "completed"
+msgstr ""
+
+#: Controller/CommentsController.php:161
+msgid "uncompleted"
+msgstr "uncompleted"
+
+#: Controller/CommentsController.php:214;259
+msgid "Invalid comment"
+msgstr ""
+
+#: Controller/CommentsController.php:263
+msgid "Comment deleted"
+msgstr ""
+
+#: Controller/CommentsController.php:266
+msgid "Comment was not deleted"
+msgstr ""
+
+#: Controller/CommentsController.php:278;309
+msgid "The task status could not be updated"
+msgstr ""
+
+#: Controller/CommentsController.php:306
+msgid "The task status was updated"
+msgstr ""
+
+#: Controller/ConfigurationsController.php:58
+msgid "Please provide an email address to send the test-email to."
+msgstr ""
+
+#: Controller/ConfigurationsController.php:67
+msgid "Invalid configuration"
+msgstr ""
+
+#: Controller/ConfigurationsController.php:77
+msgid "The configuration has been saved"
+msgstr ""
+
+#: Controller/ConfigurationsController.php:81
+msgid "The configuration could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ConfigurationsController.php:103;106
+msgid "ClientEngage Email Delivery Test"
+msgstr ""
+
+#: Controller/ConfigurationsController.php:111
+msgid ""
+"The SMTP connection could not be established. Please check your details or "
+"select the mail() function and click \"Save Configuration\"."
+msgstr ""
+
+#: Controller/ConfigurationsController.php:115
+msgid ""
+"The test message was sent via SMTP. Please check if you received the "
+"message. <strong> If you do not receive the test email, it is important that "
+"you review the SMTP details or use the mail() function instead and then "
+"click \"Save Configuration\".</strong>"
+msgstr ""
+
+#: Controller/NotificationsController.php:71
+msgid "Invalid notification"
+msgstr ""
+
+#: Controller/NotificationsController.php:75
+msgid "Notification deleted"
+msgstr ""
+
+#: Controller/NotificationsController.php:78
+msgid "Notification was not deleted"
+msgstr ""
+
+#: Controller/PhasesController.php:48
+msgid "No project was passed"
+msgstr ""
+
+#: Controller/PhasesController.php:62;108
+msgid "The phase has been saved"
+msgstr ""
+
+#: Controller/PhasesController.php:69;113
+msgid "The phase could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PhasesController.php:102;142;168
+msgid "Invalid phase"
+msgstr ""
+
+#: Controller/PhasesController.php:146
+msgid "Phase deleted"
+msgstr ""
+
+#: Controller/PhasesController.php:149
+msgid "Phase was not deleted"
+msgstr ""
+
+#: Controller/PhasesController.php:176
+msgid "Progress update succesful"
+msgstr ""
+
+#: Controller/PhasesController.php:186
+msgid "Progress update not successful: please try again"
+msgstr ""
+
+#: Controller/ProjectsController.php:79;109
+msgid "This phase does not exist"
+msgstr ""
+
+#: Controller/ProjectsController.php:83;113
+msgid "Phase :phase_num: :phase_title"
+msgstr ""
+
+#: Controller/ProjectsController.php:132
+msgid "This project does not exist"
+msgstr ""
+
+#: Controller/ProjectsController.php:194 View/Projects/admin_index.ctp:37
+msgid "Project Overview"
+msgstr ""
+
+#: Controller/ProjectsController.php:210;228;383;423;453;588
+msgid "Invalid project"
+msgstr ""
+
+#: Controller/ProjectsController.php:238
+msgid "The invitations were successfully sent."
+msgstr ""
+
+#: Controller/ProjectsController.php:243
+msgid "An error occured whilst sending the invitations. Please try again."
+msgstr ""
+
+#: Controller/ProjectsController.php:359;389
+msgid "The project has been saved"
+msgstr ""
+
+#: Controller/ProjectsController.php:364;394
+msgid "The project could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ProjectsController.php:427
+msgid "Project deleted"
+msgstr ""
+
+#: Controller/ProjectsController.php:430
+msgid "Project was not deleted"
+msgstr ""
+
+#: Controller/ProjectsController.php:438
+msgid "The project was successfully duplicated."
+msgstr ""
+
+#: Controller/ProjectsController.php:443
+msgid "The project could not be duplicated."
+msgstr ""
+
+#: Controller/ProjectsController.php:472
+msgid ""
+"When moving a project, you have to select either the new start date, OR the "
+"new end date."
+msgstr ""
+
+#: Controller/ProjectsController.php:506
+msgid "The project was moved successfully."
+msgstr ""
+
+#: Controller/ProjectsController.php:511
+msgid "An error occured whilst moving the project. Please try again"
+msgstr ""
+
+#: Controller/ProjectsController.php:598
+msgid "You successfully removed the project from your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:602
+msgid "The project could not be removed from your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:614
+msgid "You successfully added the project to your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:618
+msgid "The project could not be added to your favourites."
+msgstr ""
+
+#: Controller/UsersController.php:70;183;258;300;440
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:93;223
+msgid "Invalid administrator"
+msgstr ""
+
+#: Controller/UsersController.php:127
+msgid "The user has been created"
+msgstr ""
+
+#: Controller/UsersController.php:133;200
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:160
+msgid "The administrator has been created"
+msgstr ""
+
+#: Controller/UsersController.php:165;240
+#: Plugin/Installer/Controller/InstallationController.php:324
+msgid "The administrator could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:195
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:235
+msgid "The administrator has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:265
+msgid "The changes to your profile were saved"
+msgstr ""
+
+#: Controller/UsersController.php:271
+msgid "Your profile could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:278
+msgid "Your Profile"
+msgstr ""
+
+#: Controller/UsersController.php:305
+msgid "You cannot delete the only administrator"
+msgstr ""
+
+#: Controller/UsersController.php:311
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:314
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:358
+msgid "The system is in maintenance mode."
+msgstr ""
+
+#: Controller/UsersController.php:362
+msgid "You successfully logged in."
+msgstr ""
+
+#: Controller/UsersController.php:370
+msgid "The username/password you provided were incorrect."
+msgstr ""
+
+#: Controller/UsersController.php:373 View/Users/admin_login.ctp:53;60
+#: View/Users/login.ctp:51;58
+msgid "Login"
+msgstr ""
+
+#: Controller/UsersController.php:400
+msgid "No user matching the email address could be found"
+msgstr ""
+
+#: Controller/UsersController.php:416
+msgid "Project Platform: Password Reset"
+msgstr ""
+
+#: Controller/UsersController.php:417
+msgid ""
+"Dear :username, \n"
+"\n"
+"Your temporary password is: :temp_password"
+msgstr ""
+
+#: Controller/UsersController.php:419
+msgid ""
+"You have been sent an email with a temporary password. Please check your "
+"inbox."
+msgstr ""
+
+#: Controller/UsersController.php:424
+msgid "An error occurred whilst re-setting your password. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:434
+msgid "Personification action not allowed."
+msgstr ""
+
+#: Controller/UsersController.php:443
+msgid "Personification not allowed"
+msgstr ""
+
+#: Controller/UsersController.php:449
+msgid "Personification of admin not allowed"
+msgstr ""
+
+#: Controller/UsersController.php:456
+msgid "You are now personifying :username"
+msgstr ""
+
+#: Lib/GlobalClasses.php:47 View/Clients/admin_view.ctp:24
+#: View/Users/admin_index.ctp:32 View/Users/admin_view.ctp:27
+msgid "Client"
+msgstr ""
+
+#: Lib/GlobalClasses.php:48 View/Helper/LayoutHelper.php:488
+msgid "Administrator"
+msgstr ""
+
+#: Lib/GlobalClasses.php:107
+msgid "Low"
+msgstr ""
+
+#: Lib/GlobalClasses.php:108
+msgid "Normal"
+msgstr ""
+
+#: Lib/GlobalClasses.php:109
+msgid "High"
+msgstr ""
+
+#: Lib/GlobalClasses.php:162
+msgid "Upload"
+msgstr ""
+
+#: Lib/GlobalClasses.php:163 View/Helper/LayoutHelper.php:395
+msgid "External link"
+msgstr ""
+
+#: Lib/GlobalClasses.php:199
+msgid "English (British)"
+msgstr ""
+
+#: Lib/GlobalClasses.php:200
+msgid "English (United States)"
+msgstr ""
+
+#: Lib/GlobalClasses.php:201
+msgid "German (Germany)"
+msgstr ""
+
+#: Lib/GlobalClasses.php:202
+msgid "Dutch"
+msgstr ""
+
+#: Lib/GlobalClasses.php:203
+msgid "Portuguese"
+msgstr ""
+
+#: Lib/GlobalClasses.php:204
+msgid "Russian"
+msgstr ""
+
+#: Lib/GlobalClasses.php:205
+msgid "Spanish"
+msgstr ""
+
+#: Model/Comment.php:62
+msgid "completed_date"
+msgstr "Completion Date"
+
+#: Model/Configuration.php:249
+msgid "Please enter the invitation template."
+msgstr ""
+
+#: Model/Configuration.php:254
+msgid ""
+"You need to use the placeholders {StartIsNewUser} and {EndIsNewUser} one "
+"each."
+msgstr ""
+
+#: Model/Configuration.php:257
+msgid ""
+"You need to use each of the placeholders {StartIsNewUser} and {EndIsNewUser} "
+"only once."
+msgstr ""
+
+#: Model/Configuration.php:260
+msgid "{EndIsNewUser} has to be inserted after {StartIsNewUser}"
+msgstr ""
+
+#: Model/Phase.php:66
+msgid "percent_completed"
+msgstr "Percent Completed"
+
+#: Model/Phase.php:263
+msgid "The end date has to be on or after the start date."
+msgstr ""
+
+#: Model/Project.php:316
+msgid "_Copy"
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:115;340;378
+msgid ""
+"You have successfully installed ClientEngage. You may now log-in with your "
+"administrator profile."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:121
+msgid "Installation cannot continue, please accept the EULA"
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:145
+msgid ""
+"You have already configured the database connection. Please proceed with the "
+"installation."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:168
+msgid "Could not connect to the database. Please review the configuration."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:175
+msgid "Could not write the database configuration."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:179
+msgid "Your database configuration was successfull."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:189;217
+msgid "Could not connect to the database. Please review your configuration."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:206;302
+msgid ""
+"The database was not properly initialised. Please re-start the installation."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:212
+msgid "Configuration already exists. Please continue."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:222
+msgid ""
+"Not all tables were initialised successfully. Please drop all initialised "
+"tables and re-start the installation."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:228
+msgid ""
+"Dear {UserName},\n"
+"\n"
+"You have been invited to join the project {ProjectName} on our online "
+"project management portal.\n"
+"\n"
+"This will enable you to participate in following the project's progress as "
+"well as allow you to comment on any of the project's phases.\n"
+"\n"
+"You can log-on to the project here: {ProjectUrl}\n"
+"\n"
+"Your username is: {UserEmail}\n"
+"{StartIsNewUser}\n"
+"Your temporary password is: {TempPassword}\n"
+"\n"
+"Please make sure you change your temporary password during your first "
+"visit.\n"
+"{EndIsNewUser}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:287
+msgid "The system configuration was saved successfully."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:292
+msgid "Could not save the system configuration. Please review your inputs."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:308
+msgid "Administrator already exists. Please continue."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:319
+msgid "The administrator has been created."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:368
+msgid ""
+"<h4>Could not write to the security configuration. Please make sure the file "
+"is writable.</h4><code>:security_core</code>"
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:383
+msgid "Could not create the administrative user. Please try again."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:480
+msgid "You must enter the database host."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:481
+msgid "You must enter the database name."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:482
+msgid "You must enter the database username."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:498
+msgid "Please enter valid database settings."
+msgstr ""
+
+#: Plugin/Installer/Controller/InstallationController.php:580
+msgid ""
+"<h4>The table \":table_name\" could not be created. Please clear any "
+"existing ClientEngage tables before continuing the installation.</h4>:"
+"error_message"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:49
+msgid "Administrator Settings"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:50
+#: View/Clients/admin_view.ctp:61
+#: View/Configurations/admin_email.ctp:68;77;96;112;128
+#: View/Users/admin_add.ctp:29 View/Users/admin_administrators.ctp:32
+#: View/Users/admin_administrators_add.ctp:28
+#: View/Users/admin_administrators_edit.ctp:29
+#: View/Users/admin_administrators_view.ctp:27 View/Users/admin_edit.ctp:30
+#: View/Users/admin_index.ctp:33 View/Users/admin_view.ctp:32
+#: View/Users/profile.ctp:29
+msgid "Username"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:51
+#: View/Clients/admin_view.ctp:62 View/Users/admin_add.ctp:30
+#: View/Users/admin_administrators.ctp:33
+#: View/Users/admin_administrators_add.ctp:29
+#: View/Users/admin_administrators_edit.ctp:30
+#: View/Users/admin_administrators_view.ctp:32 View/Users/admin_edit.ctp:31
+#: View/Users/admin_index.ctp:34 View/Users/admin_login.ctp:57
+#: View/Users/admin_view.ctp:37 View/Users/forgotten_password.ctp:55
+#: View/Users/login.ctp:55 View/Users/profile.ctp:30
+msgid "Email"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:52
+#: Plugin/Installer/View/Installation/database_setup.ctp:52
+#: View/Configurations/admin_email.ctp:69
+#: View/Users/admin_administrators_add.ctp:30 View/Users/admin_login.ctp:58
+#: View/Users/login.ctp:56
+msgid "Password"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:52
+#: View/Users/admin_administrators_add.ctp:30
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Enter new password"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:53
+#: View/Users/admin_administrators_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:32 View/Users/admin_edit.ctp:33
+#: View/Users/profile.ctp:32
+msgid "Confirm Password"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:53
+#: View/Users/admin_administrators_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:32 View/Users/admin_edit.ctp:33
+#: View/Users/profile.ctp:32
+msgid "Repeat new password"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/administrator.ctp:57
+msgid "Finalise Installation"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:49
+msgid "Database Host"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:50
+msgid "TCP Port / UNIX Socket"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:50
+msgid "Optional"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:51
+msgid "Database Username"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:53
+msgid "Database Name"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:54
+msgid "Table Prefix"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:55
+#: Plugin/Installer/View/Installation/settings.ctp:59
+msgid "Continue"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/finalisation.ctp:51
+msgid "Perform Final Configurations"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:51
+#: Plugin/Updater/View/Update/index.ctp:47
+msgid "Your temporary directory is writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:55
+#: Plugin/Updater/View/Update/index.ctp:51
+msgid "Your temporary directory is not writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:56;66;76;86
+#: Plugin/Updater/View/Update/index.ctp:52;62;74;85
+msgid "Please make the following path writable: "
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:61
+#: Plugin/Updater/View/Update/index.ctp:57
+msgid "Your configuration directory is writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:65
+#: Plugin/Updater/View/Update/index.ctp:61
+msgid "Your configuration directory is not writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:71
+msgid "Your security configuration is writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:75
+msgid "Your security configuration is not writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:81
+#: Plugin/Updater/View/Update/index.ctp:80
+msgid "Your upload directory is writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:85
+#: Plugin/Updater/View/Update/index.ctp:84
+msgid "Your upload directory is not writable."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:91
+#: Plugin/Updater/View/Update/index.ctp:90
+msgid ""
+"The PHP version running on your server (%s) fulfills the minimum requirement "
+"(5.2.8)."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:95
+#: Plugin/Updater/View/Update/index.ctp:94
+msgid ""
+"The PHP version running on your server (%s) does not fulfill the minimum "
+"requirement (5.2.8)."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:101
+#: Plugin/Updater/View/Update/index.ctp:100
+msgid "The PDO extensions are loaded."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:105
+#: Plugin/Updater/View/Update/index.ctp:104
+msgid "The necessary PDO extensions are not loaded."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:106
+#: Plugin/Updater/View/Update/index.ctp:105
+msgid ""
+"Please enable the PHP PDO extension as well as the MySQL PDO extension. You "
+"may have to ask your hosting-provider to enable these."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:281
+#: Plugin/Updater/View/Update/index.ctp:279
+msgid "I agree to the above terms."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:282
+msgid "Begin Installation"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/index.ctp:287
+#: Plugin/Updater/View/Update/index.ctp:285
+msgid ""
+"Unfortunately, the installation cannot proceed due to the minimum "
+"requirements not being met."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/initialisation.ctp:45
+msgid ""
+"You have successfully configured the database connection. Please click \":"
+"btn_name\" to create all necessary database tables."
+msgstr ""
+
+#: Plugin/Installer/View/Installation/initialisation.ctp:45;48
+msgid "Initialise Database"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:49
+#: View/Elements/layout/topbar.ctp:74
+msgid "System Settings"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:51
+#: View/Configurations/admin_email.ctp:84;103;119;135
+#: View/Configurations/admin_index.ctp:44
+msgid "System Name"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:52
+#: View/Configurations/admin_index.ctp:45 View/Users/admin_add.ctp:32
+#: View/Users/admin_administrators_add.ctp:32
+#: View/Users/admin_administrators_edit.ctp:34 View/Users/admin_edit.ctp:35
+#: View/Users/profile.ctp:33
+msgid "System Language"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:53
+#: View/Configurations/admin_email.ctp:58
+msgid "Email Settings"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:54
+#: View/Configurations/admin_email.ctp:60
+msgid "Sender Email"
+msgstr ""
+
+#: Plugin/Installer/View/Installation/settings.ctp:55
+#: View/Configurations/admin_email.ctp:61
+msgid "Sender Name"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:111
+msgid "Plugin name to be used"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:115
+msgid "Force 'generate' to compare all tables."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:119
+msgid "Set db config <config>. Uses 'default' if none is specified."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:124
+msgid ""
+"Disables automatic creation of migrations table and running any internal "
+"plugin migrations"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:126
+msgid "Displays a status of all plugin and app migrations."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:128
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:130
+msgid "Run a migration to given direction or version."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:132;134
+msgid "Generates a migration file."
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:66
+msgid "No update necessary."
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:72
+msgid "Update cannot continue, please accept the EULA"
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:106
+msgid "An error has occured whilst running the update: "
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:124
+msgid ""
+"Part of the update could not be performed. The new version information could "
+"not be applied. Please open the following file and replace the version "
+"number with \":version\": "
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:131
+msgid ""
+"Part of the update could not be performed. Please delete the following file: "
+msgstr ""
+
+#: Plugin/Updater/Controller/UpdateController.php:135
+msgid "You have successfully updated the ClientEngage Project Platform to v"
+msgstr ""
+
+#: Plugin/Updater/View/Update/index.ctp:69
+msgid "Your version file is writable."
+msgstr ""
+
+#: Plugin/Updater/View/Update/index.ctp:73
+msgid "Your version file is not writable."
+msgstr ""
+
+#: Plugin/Updater/View/Update/index.ctp:280
+msgid "Perform Update"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:2;12 View/Comments/admin_index.ctp:12
+msgid "Attachments"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:6 View/Comments/admin_index.ctp:6
+#: View/Notifications/admin_index.ctp:28 View/Projects/admin_index.ctp:41
+msgid "Sorting Options: "
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:9 View/Comments/admin_index.ctp:9
+#: View/Notifications/admin_index.ctp:31 View/Projects/admin_index.ctp:46
+msgid "Reset"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:10 View/Comments/admin_index.ctp:10
+#: View/Notifications/admin_index.ctp:33
+msgid "Phase"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:11 View/Comments/add.ctp:28
+#: View/Comments/admin_edit.ctp:29 View/Comments/admin_index.ctp:11
+msgid "Comment"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:13 View/Clients/admin_index.ctp:33
+#: View/Clients/admin_view.ctp:32;66;102 View/Comments/admin_index.ctp:13
+#: View/Projects/admin_index.ctp:53
+#: View/Projects/admin_prepareinvitation.ctp:82
+#: View/Projects/admin_view.ctp:72;114;160
+#: View/Users/admin_administrators.ctp:37
+#: View/Users/admin_administrators_view.ctp:57 View/Users/admin_index.ctp:38
+#: View/Users/admin_view.ctp:67
+msgid "Created"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:36 View/Comments/admin_index.ctp:49
+#: View/Helper/LayoutHelper.php:245;280
+msgid "View"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:42 View/Comments/admin_index.ctp:55
+msgid "Currently, no attachments exist."
+msgstr ""
+
+#: View/Clients/admin_add.ctp:26
+msgid "Add Client"
+msgstr ""
+
+#: View/Clients/admin_add.ctp:28 View/Clients/admin_edit.ctp:29
+#: View/Clients/admin_index.ctp:32 View/Clients/admin_view.ctp:27
+#: View/Phases/admin_add.ctp:28 View/Phases/admin_edit.ctp:29
+#: View/Projects/admin_add.ctp:37 View/Projects/admin_edit.ctp:38
+#: View/Projects/admin_prepareinvitation.ctp:42
+#: View/Projects/admin_view.ctp:27;109
+msgid "Name"
+msgstr ""
+
+#: View/Clients/admin_add.ctp:29 View/Clients/admin_edit.ctp:31
+#: View/Elements/layout/topbar.ctp:86 View/Projects/search.ctp:30
+#: View/Projects/search_projects.ctp:25
+#: View/Projects/search_suggestions.ctp:25
+msgid "Projects"
+msgstr ""
+
+#: View/Clients/admin_add.ctp:33
+msgid "Create Client"
+msgstr ""
+
+#: View/Clients/admin_add.ctp:34 View/Clients/admin_edit.ctp:36
+#: View/Elements/comments/createform.ctp:75 View/Phases/admin_edit.ctp:64
+#: View/Projects/admin_add.ctp:44 View/Projects/admin_edit.ctp:48
+#: View/Projects/admin_move.ctp:37 View/Users/admin_add.ctp:41
+#: View/Users/admin_administrators_add.ctp:40
+#: View/Users/admin_administrators_edit.ctp:45 View/Users/admin_edit.ctp:46
+msgid "Cancel"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:26 View/Clients/admin_view.ctp:49
+msgid "Edit Client"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:35 View/Phases/admin_edit.ctp:63
+#: View/Projects/admin_edit.ctp:47 View/Users/admin_administrators_edit.ctp:44
+#: View/Users/admin_edit.ctp:45
+msgid "Save"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:41 View/Clients/admin_index.ctp:35
+#: View/Clients/admin_view.ctp:46;67;104 View/Elements/comments/comment.ctp:41
+#: View/Elements/phase/phaseheader.ctp:24 View/Helper/LayoutHelper.php:233;268
+#: View/Phases/admin_edit.ctp:68 View/Projects/admin_edit.ctp:53
+#: View/Projects/admin_prepareinvitation.ctp:96
+#: View/Projects/admin_view.ctp:87;115;162 View/Projects/dashboard.ctp:29
+#: View/Projects/phase.ctp:277 View/Users/admin_administrators.ctp:39
+#: View/Users/admin_administrators_edit.ctp:50
+#: View/Users/admin_administrators_view.ctp:71 View/Users/admin_edit.ctp:51
+#: View/Users/admin_index.ctp:40 View/Users/admin_view.ctp:81
+msgid "Actions"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:44
+msgid "View Client"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:45 View/Helper/LayoutHelper.php:104;252;285
+#: View/Phases/admin_edit.ctp:72 View/Projects/admin_edit.ctp:57
+#: View/Users/admin_edit.ctp:55
+msgid "Delete"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:45 View/Clients/admin_view.ctp:50
+#: View/Projects/admin_edit.ctp:57 View/Projects/admin_view.ctp:93
+#: View/Users/admin_administrators_edit.ctp:54
+#: View/Users/admin_administrators_view.ctp:75 View/Users/admin_edit.ctp:55
+#: View/Users/admin_view.ctp:85
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: View/Clients/admin_edit.ctp:46
+msgid "List Clients"
+msgstr ""
+
+#: View/Clients/admin_index.ctp:26
+msgid "New Client"
+msgstr ""
+
+#: View/Clients/admin_index.ctp:29
+msgid "Client Overview"
+msgstr ""
+
+#: View/Clients/admin_index.ctp:34 View/Clients/admin_view.ctp:37;103
+#: View/Projects/admin_index.ctp:52
+#: View/Projects/admin_prepareinvitation.ctp:87
+#: View/Projects/admin_view.ctp:77;161 View/Users/admin_administrators.ctp:38
+#: View/Users/admin_administrators_view.ctp:62 View/Users/admin_index.ctp:39
+#: View/Users/admin_view.ctp:72
+msgid "Modified"
+msgstr ""
+
+#: View/Clients/admin_index.ctp:49
+msgid "Currently, no clients exist."
+msgstr ""
+
+#: View/Clients/admin_view.ctp:50
+msgid "Delete Client"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:51
+msgid "Back to Client Overview"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:57
+msgid "This Client's Users"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:63 View/Users/admin_add.ctp:34
+#: View/Users/admin_administrators.ctp:34
+#: View/Users/admin_administrators_add.ctp:34
+#: View/Users/admin_administrators_edit.ctp:36
+#: View/Users/admin_administrators_view.ctp:37 View/Users/admin_edit.ctp:37
+#: View/Users/admin_index.ctp:35 View/Users/admin_view.ctp:47
+msgid "Active"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:64
+msgid "Avatarpath"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:65 View/Users/admin_administrators.ctp:36
+#: View/Users/admin_administrators_view.ctp:52 View/Users/admin_index.ctp:37
+#: View/Users/admin_view.ctp:62
+msgid "Last Active"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:87;123
+#: View/Elements/projects/admin_overview.ctp:42
+#: View/Projects/admin_view.ctp:146;179
+msgid "none"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:91 View/Users/admin_add.ctp:26
+msgid "Add User"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:95
+msgid "Associated Projects"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:99 View/Notifications/admin_index.ctp:34
+#: View/Projects/admin_index.ctp:47 View/Projects/admin_view.ctp:159
+msgid "Title"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:100 View/Phases/admin_add.ctp:29
+#: View/Phases/admin_edit.ctp:31 View/Projects/admin_add.ctp:38
+#: View/Projects/admin_edit.ctp:40 View/Projects/admin_index.ctp:49
+#: View/Projects/admin_prepareinvitation.ctp:52
+#: View/Projects/admin_view.ctp:37;110 View/Projects/phase.ctp:51
+msgid "Description"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:101
+#: View/Elements/projects/admin_overview.ctp:44
+#: View/Elements/projects/overview.ctp:35 View/Projects/admin_index.ctp:50
+#: View/Projects/admin_prepareinvitation.ctp:57
+#: View/Projects/admin_view.ctp:42 View/Projects/dashboard.ctp:38
+#: View/Projects/search.ctp:51 View/Projects/search_phases.ctp:25
+#: View/Projects/search_suggestions.ctp:34
+msgid "Phases"
+msgstr ""
+
+#: View/Comments/add.ctp:26
+msgid "Add Comment"
+msgstr ""
+
+#: View/Comments/add.ctp:29 View/Comments/admin_edit.ctp:30
+#: View/Elements/comments/createform.ctp:37
+msgid "Hide from Clients"
+msgstr ""
+
+#: View/Comments/add.ctp:30 View/Comments/admin_edit.ctp:31
+#: View/Elements/comments/createform.ctp:49
+#: View/Elements/phase/phaseheader.ctp:98 View/Helper/LayoutHelper.php:200
+msgid "Send email notification to project members?"
+msgstr ""
+
+#: View/Comments/add.ctp:31 View/Comments/admin_edit.ctp:33
+msgid "Make this a task?"
+msgstr ""
+
+#: View/Comments/add.ctp:32 View/Comments/admin_edit.ctp:34
+#: View/Comments/admin_index.ctp:34
+msgid "Priority"
+msgstr ""
+
+#: View/Comments/add.ctp:36 View/Comments/admin_edit.ctp:39
+#: View/Elements/comments/createform.ctp:74
+msgid "Submit"
+msgstr ""
+
+#: View/Comments/admin_edit.ctp:26
+msgid "Edit Comment"
+msgstr ""
+
+#: View/Comments/admin_edit.ctp:31
+msgid ""
+"Ticking this option will re-send the Comment-Created message. This is useful "
+"if a comment was hidden from clients until now."
+msgstr ""
+
+#: View/Comments/admin_edit.ctp:35
+msgid "Completed IP"
+msgstr ""
+
+#: View/Comments/admin_index.ctp:2
+msgid "Tasks"
+msgstr ""
+
+#: View/Comments/admin_index.ctp:23
+msgid "All"
+msgstr ""
+
+#: View/Comments/admin_index.ctp:24;35
+msgid "Completed"
+msgstr "Completed"
+
+#: View/Comments/admin_index.ctp:25
+msgid "Pending"
+msgstr ""
+
+#: View/Comments/admin_index.ctp:35 View/Helper/AppNumberHelper.php:34
+#: View/Helper/AppTimeHelper.php:73;91
+#: View/Helper/LayoutHelper.php:75;122;123;127;128;132;133
+msgid "N/A"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:41
+#: View/Configurations/admin_index.ctp:24
+msgid "Edit System Configuration"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:48
+#: View/Configurations/admin_index.ctp:31
+msgid "System Configuration"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:49
+#: View/Configurations/admin_index.ctp:32
+msgid "Email Configuration"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:54
+#: View/Configurations/admin_index.ctp:37
+msgid "You can adapt global system settings below:"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:59
+msgid "Check \"Send Notifications\" by Default"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:62
+msgid "Transport Method"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:62
+msgid "PHP mail() function"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:62
+msgid "SMTP account"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:64
+msgid "SMTP Settings"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:65
+msgid ""
+"Please enter your SMTP details below. For example, for GMail you need to use "
+"the following data: ssl://smtp.gmail.com (host), 465 (port), your.name@gmail."
+"com (username) and your password. After sending the test-email it is "
+"<strong>important</strong> that you save your changes by clicking \"Save "
+"Configuration\" below."
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:66
+msgid "Host"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:67
+msgid "Port"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:70
+msgid "Test-Email"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:70
+msgid "Send Test-Email"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:73
+msgid "Invitation Email"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:74
+#: View/Projects/admin_prepareinvitation.ctp:120
+msgid "Invitation Email Subject"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:76;95;111;127
+msgid "--  Insert Placeholder  --"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:78;97;113;129
+msgid "Project Name"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:79
+msgid "Project Url"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:80
+msgid "User Email"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:81
+msgid "Start IsNewUser"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:82
+msgid "End IsNewUser"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:83 View/Users/admin_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:33 View/Users/admin_edit.ctp:34
+#: View/Users/admin_view.ctp:42
+msgid "Temporary Password"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:87;106;122;138
+msgid "Reset to Defaults"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:88
+#: View/Projects/admin_prepareinvitation.ctp:121
+msgid "Invitation Email Template"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:90
+msgid "Update Notification Emails"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:91
+msgid "Activity Email Subject"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:93;107
+msgid "Progress Update Email Template"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:98;114;130
+msgid "Phase Name"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:99;115;131
+msgid "Phase Url"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:100;116;132
+msgid "User"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:101
+msgid "Old Percentage"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:102
+msgid "New Percentage"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:109;123
+msgid "Comment/Task Email Template"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:117
+msgid "Comment Type (Comment/Task)"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:118;134
+msgid "Direct Url to Comment"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:125;139
+msgid "Task Activity Email Template"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:133
+msgid "Task Status (Completed/Uncompleted)"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:163
+msgid ""
+"Dear {UserName},\\n\\nYou have been invited to join the project "
+"{ProjectName} on our online project management portal.\\n\\nThis will enable "
+"you to participate in following the project's progress as well as allow you "
+"to comment on any of the project's phases.\\n\\nYou can log-on to the "
+"project here: {ProjectUrl}\\n\\nYour username is: {UserEmail}\\n"
+"{StartIsNewUser}\\nYour temporary password is: {TempPassword}\\n\\nPlease "
+"make sure you change your temporary password during your first visit.\\n"
+"{EndIsNewUser}\\n\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:165
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} changed the progress of the phase {PhaseName} "
+"from {OldPercentage} to {NewPercentage}.\\n\\nYou can view the affected "
+"project phase here: {PhaseUrl}\\n\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:167
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} has created a new {CommentType} in the phase "
+"{PhaseName}.\\n\\nYou can view the {CommentType} here: {CommentUrl}\\n\\n"
+"\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:169
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} has changed the status of a task in the phase "
+"{PhaseName} to {TaskStatus}.\\n\\nYou can view the task here: {CommentUrl}\\n"
+"\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+
+#: View/Configurations/admin_email.ctp:178
+#: View/Configurations/admin_index.ctp:69
+msgid "Save Configuration"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:39
+msgid "System Information"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:40
+msgid "Version: ClientEngage Project Platform v"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:43
+msgid "General Settings"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:46 View/Users/admin_add.ctp:33
+#: View/Users/admin_administrators_add.ctp:33
+#: View/Users/admin_administrators_edit.ctp:35 View/Users/admin_edit.ctp:36
+#: View/Users/profile.ctp:34
+msgid "System Timezone"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:47
+msgid "System Logo"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:47
+msgid ""
+"This is the logo that your clients will see in the front-end. For best "
+"results, please select a logo with a height of 23px."
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:49
+msgid "Remove current logo?"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:51
+msgid "Show Newest Comments First"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:52
+msgid "Maintenance Mode"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:53
+msgid "File Extension Blacklist"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:53
+msgid ""
+"Please enter a comma-separated list of file-extensions that are disallowed "
+"(e.g. \"exe,bat,ext\")"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:55
+msgid "Image Preview Settings"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:56
+msgid "Maximum Width"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:57
+msgid "Maximum Height"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:59
+msgid "Frontend Layout Settings"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:60
+msgid "The settings below affect the client-facing frontend only:"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:61
+msgid "Menu Bar Colour"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:62
+msgid "Menu Bar Text"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:63
+msgid "Link Colour"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:64
+msgid "Use Fluid Layout"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:65
+msgid "Show Powered By"
+msgstr ""
+
+#: View/Contents/admin_about.ctp:26
+msgid ""
+"\n"
+"ClientEngage is a fully-featured project management platform which helps you "
+"keep your clients in the loop when working with them.<br /><br />\n"
+"The benefits of ClientEngage are greater interaction with and engagement of "
+"your clients during your development lifecycles.        \n"
+msgstr ""
+
+#: View/Elements/comments/comment.ctp:40
+msgid "This comment is hidden from clients"
+msgstr ""
+
+#: View/Elements/comments/comment.ctp:73
+msgid "Reply"
+msgstr ""
+
+#: View/Elements/comments/comment.ctp:66
+msgid "Show :num_comments hidden comment"
+msgid_plural "Show :num_comments hidden comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Elements/comments/createform.ctp:40
+msgid "Make this a task"
+msgstr ""
+
+#: View/Elements/comments/createform.ctp:55
+msgid "Add attachments"
+msgstr ""
+
+#: View/Elements/comments/createform.ctp:58
+msgid "Attachment"
+msgstr ""
+
+#: View/Elements/comments/createform.ctp:65
+msgid "Add attachment"
+msgstr ""
+
+#: View/Elements/common/defaultpagination.ctp:32
+msgid "previous"
+msgstr ""
+
+#: View/Elements/common/defaultpagination.ctp:34
+msgid "next"
+msgstr ""
+
+#: View/Elements/common/defaultpagination.ctp:38
+msgid ""
+"<small class=\"smalltext\">Page {:page} of {:pages} (showing {:current} "
+"records out of a total of {:count})</small>"
+msgstr ""
+
+#: View/Elements/common/passwordnotification.ctp:25
+msgid "Password Change"
+msgstr ""
+
+#: View/Elements/common/passwordnotification.ctp:26
+msgid ""
+"You are still using the temporary password which was generated for you. "
+"Please change your password:"
+msgstr ""
+
+#: View/Elements/common/passwordnotification.ctp:27
+msgid "Your User Profile"
+msgstr ""
+
+#: View/Elements/layout/footer.ctp:46 View/Elements/layout/topbar.ctp:77;78
+msgid "About"
+msgstr ""
+
+#: View/Elements/layout/navigationpath.ctp:30
+msgid "You are here:"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:32
+msgid "ClientEngage v:app_version"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:47
+msgid "Administration"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:50;96
+msgid "Dashboard"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:53
+msgid "Manage"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:54
+msgid "Manage Projects"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:55
+msgid "Manage Clients"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:56
+msgid "Manage Users"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:58 View/Notifications/admin_index.ctp:25
+msgid "Notifications"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:64
+msgid "Finders"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:66
+msgid "View Attachments"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:67
+msgid "View Tasks"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:75 View/Users/admin_administrators.ctp:29
+msgid "Administrators"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:76
+msgid "Configuration"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:89;90
+msgid "Project Calendar"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:91
+msgid "Recent Projects"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:97
+msgid "All Projects"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:103
+msgid "Favourites"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:108
+msgid "You currently have no favourite projects."
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:126
+msgid "Stop Personification"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:128
+msgid "Your profile"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:130
+msgid "Log-out"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:136 View/Projects/search.ctp:25
+msgid "Search..."
+msgstr ""
+
+#: View/Elements/phase/phaseheader.ctp:31
+#: View/Elements/projects/admin_overview.ctp:45
+#: View/Elements/projects/overview.ctp:36 View/Phases/admin_add.ctp:34
+#: View/Phases/admin_edit.ctp:34 View/Projects/admin_view.ctp:52
+#: View/Projects/dashboard.ctp:39
+msgid "Start Date"
+msgstr ""
+
+#: View/Elements/phase/phaseheader.ctp:32
+#: View/Elements/projects/admin_overview.ctp:46
+#: View/Elements/projects/overview.ctp:37 View/Phases/admin_add.ctp:35
+#: View/Phases/admin_edit.ctp:35 View/Projects/admin_view.ctp:57
+#: View/Projects/dashboard.ctp:40
+msgid "End Date"
+msgstr ""
+
+#: View/Elements/phase/phaseheader.ctp:33
+msgid "Duration"
+msgstr ""
+
+#: View/Elements/phase/phaseheader.ctp:60
+msgid "Update"
+msgstr ""
+
+#: View/Elements/phase/phasetabs.ctp:33
+msgid "No phases"
+msgstr ""
+
+#: View/Elements/phase/phasetabs.ctp:38
+msgid "Start:"
+msgstr ""
+
+#: View/Elements/phase/phasetabs.ctp:38
+msgid "End:"
+msgstr ""
+
+#: View/Elements/phase/phasetabs.ctp:39 View/Projects/admin_view.ctp:135
+msgid "Duration:"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:33
+msgid "archived"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:40;42
+msgid "Clients:"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:40
+#: View/Helper/LayoutHelper.php:342
+msgid "and"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:49
+#: View/Elements/projects/overview.ctp:39
+msgid "Launch Project"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:101
+#: View/Elements/projects/overview.ctp:91
+msgid "Last activity: :created"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:103
+#: View/Elements/projects/overview.ctp:93
+msgid "Recent Project Activity"
+msgstr ""
+
+#: View/Elements/projects/admin_overview.ctp:116
+#: View/Elements/projects/overview.ctp:106
+msgid "Created: :created | Modified: :modified"
+msgstr ""
+
+#: View/Elements/projects/favourite_button.ctp:27
+msgid "Remove from favourites"
+msgstr ""
+
+#: View/Elements/projects/favourite_button.ctp:29
+msgid "Add to favourites"
+msgstr ""
+
+#: View/Helper/AppTimeHelper.php:35
+msgid "never"
+msgstr ""
+
+#: View/Helper/AppTimeHelper.php:77
+msgid ":days day"
+msgid_plural ":days days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Helper/AppTimeHelper.php:96
+msgid ":days day overdue"
+msgid_plural ":days days overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Helper/AppTimeHelper.php:98
+msgid ":days day remaining"
+msgid_plural ":days days remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/Helper/LayoutHelper.php:77
+msgid "Yes"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:79
+msgid "No"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:93
+msgid "The affected record has since been deleted"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:104
+msgid "Are you sure you want to delete this notification?"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:108
+msgid ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Created</span> a new element of type <code>:elementtype</code>: <span "
+"class=\"muted\">:title</span>"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:136
+msgid ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Updated</span> the field <code>:field</code> of the element <code>:"
+"elementtype</code> from <span class=\"label label-warning\">:oldvalue</span> "
+"to <span class=\"label label-success\">:newvalue</span>: <span class=\"muted"
+"\">:title</span>"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:247;282
+msgid "Edit"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:249
+msgid "Add Phase"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:252;285
+msgid ""
+"Are you sure you want to proceed with the deletion? This will also delete "
+"all associated records and cannot be undone."
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:342
+msgid "Blacklisted file extensions: "
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:395
+msgid "File type: :extension"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:411
+msgid "Open \":website_url\" in a new window"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:415
+msgid "Original file name: "
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:486;517
+msgid "Picture of :username"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:535
+msgid "Currently online"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:538
+msgid "Not currently online"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:538
+msgid "Last seen: "
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:555
+msgid "View Profile"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:558
+msgid "Personify User"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:599
+msgid "overdue"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:602
+msgid "running"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:605
+msgid "waiting"
+msgstr ""
+
+#: View/Layouts/project.ctp:78
+msgid "Project Archived"
+msgstr ""
+
+#: View/Layouts/project.ctp:79
+msgid "This project was archived and you cannot perform any changes."
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:32 View/Projects/admin_view.ctp:24
+msgid "Project"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:35
+msgid "Action"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:36
+msgid "Field"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:37
+msgid "Old Value"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:38
+msgid "New Value"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:39
+msgid "Date"
+msgstr ""
+
+#: View/Notifications/admin_index.ctp:50
+msgid "Currently, no notifications exist."
+msgstr ""
+
+#: View/Phases/admin_add.ctp:26
+msgid "Add Phase to :project_title"
+msgstr ""
+
+#: View/Phases/admin_add.ctp:30 View/Phases/admin_edit.ctp:32
+msgid "Allow Clients to Update Progress"
+msgstr ""
+
+#: View/Phases/admin_add.ctp:32
+msgid "The previous phase ends on :date"
+msgstr ""
+
+#: View/Phases/admin_add.ctp:63 View/Users/admin_add.ctp:39
+msgid "Save & Exit"
+msgstr ""
+
+#: View/Phases/admin_add.ctp:64 View/Users/admin_add.ctp:40
+msgid "Save & Add New"
+msgstr ""
+
+#: View/Phases/admin_add.ctp:65
+msgid "Cancel / Back to Project"
+msgstr ""
+
+#: View/Phases/admin_edit.ctp:26
+msgid "Edit Phase"
+msgstr ""
+
+#: View/Phases/admin_edit.ctp:30 View/Projects/admin_edit.ctp:39
+#: View/Projects/admin_index.ctp:48
+#: View/Projects/admin_prepareinvitation.ctp:47
+#: View/Projects/admin_view.ctp:32
+msgid "Url"
+msgstr ""
+
+#: View/Phases/admin_edit.ctp:71
+msgid "View Phase"
+msgstr ""
+
+#: View/Phases/admin_edit.ctp:72
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Phases/admin_edit.ctp:73
+msgid "Back to Project"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:29 View/Projects/admin_edit.ctp:29
+#: View/Projects/admin_prepareinvitation.ctp:29
+msgid "No results matched"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:35
+msgid "Add Project"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:39 View/Projects/admin_edit.ctp:43
+#: View/Projects/dashboard.ctp:43
+msgid "Project Members"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:39 View/Projects/admin_edit.ctp:43
+msgid "Select clients"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:43
+msgid "Create Project"
+msgstr ""
+
+#: View/Projects/admin_edit.ctp:35 View/Projects/admin_view.ctp:92
+msgid "Edit Project"
+msgstr ""
+
+#: View/Projects/admin_edit.ctp:41 View/Projects/admin_view.ctp:67
+msgid "Archived"
+msgstr ""
+
+#: View/Projects/admin_edit.ctp:56
+msgid "View Project"
+msgstr ""
+
+#: View/Projects/admin_edit.ctp:58
+msgid "List Projects"
+msgstr ""
+
+#: View/Projects/admin_index.ctp:26
+msgid "New Project"
+msgstr ""
+
+#: View/Projects/admin_index.ctp:51
+#: View/Projects/admin_prepareinvitation.ctp:62
+#: View/Projects/admin_view.ctp:47;111
+msgid "% Completed"
+msgstr ""
+
+#: View/Projects/admin_index.ctp:58;60
+msgid "Show Archived"
+msgstr ""
+
+#: View/Projects/admin_index.ctp:75
+msgid "Currently, no projects exist."
+msgstr ""
+
+#: View/Projects/admin_move.ctp:26;36 View/Projects/admin_view.ctp:98
+msgid "Move Project"
+msgstr ""
+
+#: View/Projects/admin_move.ctp:27
+msgid ""
+"Please select either the new start- or the new end date. You cannot select "
+"both at the same time."
+msgstr ""
+
+#: View/Projects/admin_move.ctp:29
+msgid "Current Start Date"
+msgstr ""
+
+#: View/Projects/admin_move.ctp:30
+msgid "Current End Date"
+msgstr ""
+
+#: View/Projects/admin_move.ctp:31
+msgid "New Start Date"
+msgstr ""
+
+#: View/Projects/admin_move.ctp:32
+msgid "New End Date"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:40
+msgid "Prepare Project Invitation Email"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:67
+msgid "Date Start"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:72
+msgid "Date End"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:77
+#: View/Projects/admin_view.ctp:62
+msgid "Project Duration"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:99
+msgid "Back to Overview"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:106
+msgid "Invitation Settings"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+msgid "Recipients"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+msgid "Select all"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+msgid "Select recipients"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:125
+msgid "Send Invitations"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:90
+msgid "Launch"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:91
+msgid "Prepare Invitation Email"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:93
+msgid "Delete Project"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:94
+msgid "Back to Project Overview"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:97
+msgid "Duplicate Project"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:104
+msgid "Project Phases"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:108
+msgid "No."
+msgstr ""
+
+#: View/Projects/admin_view.ctp:112
+msgid "Timings"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:113 View/Projects/search.ctp:72
+#: View/Projects/search_comments.ctp:25
+#: View/Projects/search_suggestions.ctp:43
+msgid "Comments"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:133
+msgid "Start Date:"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:134
+msgid "End Date:"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:151
+msgid "Add Phase to This Project"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:155
+msgid "Associated Clients"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:183
+msgid "Create a New Client"
+msgstr ""
+
+#: View/Projects/admin_view.ctp:184
+msgid "Manage Associated Clients"
+msgstr ""
+
+#: View/Projects/dashboard.ctp:44
+msgid "No clients have been assigned ot this project."
+msgstr ""
+
+#: View/Projects/dashboard.ctp:48
+msgid "No users"
+msgstr ""
+
+#: View/Projects/dashboard.ctp:55
+msgid "Project History"
+msgstr ""
+
+#: View/Projects/history.ctp:34 View/Projects/phase.ctp:271
+msgid "Discussion, Tasks & Attachments"
+msgstr ""
+
+#: View/Projects/history.ctp:35 View/Projects/phase.ctp:272
+msgid "Phase History"
+msgstr ""
+
+#: View/Projects/index.ctp:24
+msgid "Projects of :clientname"
+msgstr ""
+
+#: View/Projects/phase.ctp:32
+msgid "Type"
+msgstr ""
+
+#: View/Projects/phase.ctp:121
+msgid "Please enter a comment."
+msgstr ""
+
+#: View/Projects/phase.ctp:278
+msgid "Toggle comment threads"
+msgstr ""
+
+#: View/Projects/phase.ctp:279
+msgid "Show tasks only"
+msgstr ""
+
+#: View/Projects/phase.ctp:286;296
+msgid "New comment"
+msgstr ""
+
+#: View/Projects/search.ctp:25
+msgid "Search"
+msgstr ""
+
+#: View/Projects/search.ctp:46
+msgid "Search all Projects"
+msgstr ""
+
+#: View/Projects/search.ctp:67
+msgid "Search all Phases"
+msgstr ""
+
+#: View/Projects/search.ctp:91
+msgid "Search all Comments"
+msgstr ""
+
+#: View/Projects/search.ctp:96 View/Projects/search_suggestions.ctp:53
+msgid "No results..."
+msgstr ""
+
+#: View/Projects/search.ctp:101 View/Projects/search_comments.ctp:50
+#: View/Projects/search_phases.ctp:47 View/Projects/search_projects.ctp:47
+msgid "The search-query has to have at least two characters."
+msgstr ""
+
+#: View/Users/admin_add.ctp:28 View/Users/admin_edit.ctp:29
+msgid "- Please select -"
+msgstr ""
+
+#: View/Users/admin_add.ctp:28 View/Users/admin_edit.ctp:29
+msgid "Available Clients"
+msgstr ""
+
+#: View/Users/admin_add.ctp:35 View/Users/admin_administrators_add.ctp:35
+#: View/Users/admin_administrators_edit.ctp:37
+#: View/Users/admin_administrators_view.ctp:42 View/Users/admin_edit.ctp:38
+#: View/Users/admin_view.ctp:52 View/Users/profile.ctp:35
+msgid "Receive Email Notifications?"
+msgstr ""
+
+#: View/Users/admin_administrators.ctp:26
+msgid "New Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators.ctp:35
+#: View/Users/admin_administrators_edit.ctp:38
+#: View/Users/admin_administrators_view.ctp:47 View/Users/admin_edit.ctp:39
+#: View/Users/admin_index.ctp:36 View/Users/admin_view.ctp:57
+#: View/Users/profile.ctp:36
+msgid "User Image"
+msgstr ""
+
+#: View/Users/admin_administrators_add.ctp:26
+msgid "Add Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators_add.ctp:39
+msgid "Create Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:26
+#: View/Users/admin_administrators_view.ctp:74
+msgid "Edit Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Password "
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Please leave empty if you do not wish you change your password."
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:40 View/Users/admin_edit.ctp:41
+#: View/Users/profile.ctp:38
+msgid "Remove current user image?"
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:53
+msgid "View Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:54
+#: View/Users/admin_administrators_view.ctp:75
+msgid "Delete Administrator"
+msgstr ""
+
+#: View/Users/admin_administrators_edit.ctp:55
+#: View/Users/admin_administrators_view.ctp:76
+msgid "List Administrators"
+msgstr ""
+
+#: View/Users/admin_administrators_view.ctp:24
+msgid "Administrator Profile"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:26 View/Users/admin_view.ctp:84
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:54
+msgid "View User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:56 View/Users/admin_view.ctp:86
+msgid "List Users"
+msgstr ""
+
+#: View/Users/admin_index.ctp:26
+msgid "New User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:29
+msgid "Users"
+msgstr ""
+
+#: View/Users/admin_index.ctp:61
+msgid "Currently, no users exist."
+msgstr ""
+
+#: View/Users/admin_login.ctp:59 View/Users/login.ctp:57
+msgid "Remember me for 2 weeks"
+msgstr ""
+
+#: View/Users/admin_login.ctp:62 View/Users/login.ctp:60
+msgid "Forgot your password?"
+msgstr ""
+
+#: View/Users/admin_view.ctp:24
+msgid "User Profile"
+msgstr ""
+
+#: View/Users/admin_view.ctp:44
+msgid "Already reset"
+msgstr ""
+
+#: View/Users/admin_view.ctp:85
+msgid "Delete User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:92
+msgid "Recent Activity"
+msgstr ""
+
+#: View/Users/forgotten_password.ctp:51;56
+msgid "Reset Password"
+msgstr ""
+
+#: View/Users/profile.ctp:26
+msgid "Edit Your Profile"
+msgstr ""
+
+#: View/Users/profile.ctp:42
+msgid "Save Profile"
+msgstr ""
+
+#: Model/Attachment.php:validation for field phase_id
+msgid "Please select the phase."
+msgstr ""
+
+#: Model/Attachment.php:validation for field type
+msgid "You have to select an attachment type."
+msgstr ""
+
+#: Model/Attachment.php:validation for field type
+msgid "Please select a valid attachment type."
+msgstr ""
+
+#: Model/Client.php:validation for field title
+msgid "Please enter the name of the client."
+msgstr ""
+
+#: Model/Client.php:validation for field user_count Model/Phase.php:validation
+#: comment_count Model/Project.php:validation phase_count
+msgid "Please enter a valid integer."
+msgstr ""
+
+#: Model/Comment.php:validation for field phase_id
+msgid "Please select a phase."
+msgstr ""
+
+#: Model/Comment.php:validation for field content
+msgid "Please enter a comment"
+msgstr ""
+
+#: Model/Comment.php:validation for field needsaction
+msgid "Please indicate whether this comment is a task."
+msgstr ""
+
+#: Model/Comment.php:validation for field priority
+msgid "Please select a priority."
+msgstr ""
+
+#: Model/Comment.php:validation for field priority
+msgid "Please select a valid priority."
+msgstr ""
+
+#: Model/Configuration.php:validation for field System-name
+msgid "Please enter the name of the system."
+msgstr ""
+
+#: Model/Configuration.php:validation for field System-language
+msgid "Please select the system language."
+msgstr ""
+
+#: Model/Configuration.php:validation for field System-timezone
+msgid "Please select the system timezone."
+msgstr ""
+
+#: Model/Configuration.php:validation for field System-logo_name
+#: Model/User.php:validation avatarpath
+msgid "Please upload a valid image."
+msgstr ""
+
+#: Model/Configuration.php:validation for field System-maintenance;validation
+#: Email-checked_default;validation Layout-fluid
+msgid "Please indicate a valid boolean value."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Uploads-extension_blacklist
+msgid "Please enter the extension blacklist"
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-email
+msgid "Please enter an email address."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-email
+#: Model/User.php:validation email
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-sender
+msgid "Please enter a sender name."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-invitationtext_text
+msgid "Please enter an email invitation template."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-invitationtext_text
+msgid "Please review the invitation email template."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-invitationsubject
+msgid "Please enter the email invitation subject"
+msgstr ""
+
+#: Model/Configuration.php:validation for field Email-activity_subject
+msgid "Please enter the activity email subject"
+msgstr ""
+
+#: Model/Configuration.php:validation for field
+#: Email-progressactivity_text;validation
+#: Email-commentactivity_text;validation Email-taskactivity_text
+msgid "Please enter an email template."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Color-topbar_fill;validation
+#: Color-topbar_text;validation Color-link
+msgid "This is not a valid colour."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Misc-showpoweredby
+msgid "Please enter a valid boolean value."
+msgstr ""
+
+#: Model/Configuration.php:validation for field Preview-max_width;validation
+#: Preview-max_height
+msgid "Please enter a valid number."
+msgstr ""
+
+#: Model/Phase.php:validation for field project_id
+msgid "Please select a project."
+msgstr ""
+
+#: Model/Phase.php:validation for field title Model/Project.php:validation
+msgid "Please enter a name."
+msgstr ""
+
+#: Model/Phase.php:validation for field title Model/Project.php:validation
+msgid "Please enter less than 240 characters."
+msgstr ""
+
+#: Model/Phase.php:validation for field slug Model/Project.php:validation
+msgid "Please enter a valid Url segment."
+msgstr ""
+
+#: Model/Phase.php:validation for field slug
+msgid "This Url has already been taken."
+msgstr ""
+
+#: Model/Phase.php:validation for field percent_completed
+msgid "Please enter a valid percentage."
+msgstr ""
+
+#: Model/Phase.php:validation for field date_start;validation date_end
+msgid "Please enter a valid date (yyyy-mm-dd)."
+msgstr ""
+
+#: Model/Phase.php:validation for field date_end
+msgid "The end date has to be on or after the start date"
+msgstr ""
+
+#: Model/Project.php:validation for field slug
+msgid "This URL has already been taken"
+msgstr ""
+
+#: Model/User.php:validation for field client_id
+msgid "Please select a client."
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Please enter a username."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "This email address has already been taken."
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "Please enter your password."
+msgstr ""
+
+#: Model/User.php:validation for field password;validation password_confirm
+msgid "Passwords do not match."
+msgstr ""
+
+#: Model/User.php:validation for field password;validation password_confirm
+msgid "Must be at least 4 characters long."
+msgstr ""
+
+#: Model/User.php:validation for field temp_password
+msgid "Please enter a temporary password."
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please select the user type."
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please select a valid role."
+msgstr ""
+
+#: Model/User.php:validation for field active
+msgid "Please indicate whether this user is activated."
+msgstr ""
+
+#: Model/User.php:validation for field language
+msgid "Please select the language."
+msgstr ""
+
+#: Model/User.php:validation for field timezone
+msgid "Please select the timezone."
+msgstr ""

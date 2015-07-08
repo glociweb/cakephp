@@ -1,0 +1,53 @@
+1436341866
+a:1:{s:13:"Configuration";a:32:{s:2:"id";s:36:"557aad30-fbc8-442b-b430-77db0a11ef94";s:11:"System-name";s:18:"Project management";s:15:"System-language";s:5:"en-gb";s:15:"System-timezone";s:13:"Europe/London";s:16:"System-logo_name";s:8:"logo.jpg";s:15:"System-logo_dir";s:36:"557aad30-fbc8-442b-b430-77db0a11ef94";s:20:"System-comments_desc";b:1;s:18:"System-maintenance";b:0;s:27:"Uploads-extension_blacklist";s:7:"exe,bat";s:21:"Email-checked_default";b:0;s:15:"Email-transport";s:4:"mail";s:11:"Email-email";s:26:"manoj@rudrainnovatives.com";s:12:"Email-sender";s:20:"equity build finance";s:10:"Email-host";N;s:10:"Email-port";N;s:14:"Email-username";N;s:14:"Email-password";N;s:23:"Email-invitationsubject";s:39:"Invitation to Online Project Management";s:25:"Email-invitationtext_text";s:515:"Dear {UserName},
+
+You have been invited to join the project {ProjectName} on our online project management portal.
+
+This will enable you to participate in following the project's progress as well as allow you to comment on any of the project's phases.
+
+You can log-on to the project here: {ProjectUrl}
+
+Your username is: {UserEmail}
+{StartIsNewUser}
+Your temporary password is: {TempPassword}
+
+Please make sure you change your temporary password during your first visit.
+{EndIsNewUser}
+
+
+Kind regards,
+{SystemName}
+";s:22:"Email-activity_subject";s:37:"Activity in Online Project Management";s:27:"Email-progressactivity_text";s:279:"Dear {UserName},
+                
+There has been some new activity in the project {ProjectName}.
+
+{User} changed the progress of the phase {PhaseName} from {OldPercentage} to {NewPercentage}.
+
+You can view the affected project phase here: {PhaseUrl}
+
+
+Kind regards,
+{SystemName}
+";s:26:"Email-commentactivity_text";s:243:"Dear {UserName},
+                
+There has been some new activity in the project {ProjectName}.
+
+{User} has created a new {CommentType} in the phase {PhaseName}.
+
+You can view the {CommentType} here: {CommentUrl}
+
+
+Kind regards,
+{SystemName}
+";s:23:"Email-taskactivity_text";s:261:"Dear {UserName},
+                
+There has been some new activity in the project {ProjectName}.
+
+{User} has changed the status of a task in the phase {PhaseName} to {TaskStatus}.
+
+You can view the task here: {CommentUrl}
+
+
+Kind regards,
+{SystemName}          
+";s:17:"Preview-max_width";s:3:"260";s:18:"Preview-max_height";s:3:"260";s:17:"Color-topbar_fill";s:7:"#2c2c2c";s:17:"Color-topbar_text";s:7:"#999999";s:10:"Color-link";s:7:"#0088cc";s:12:"Layout-fluid";b:1;s:18:"Misc-showpoweredby";b:0;s:7:"created";s:19:"2015-06-12 09:58:08";s:8:"modified";s:19:"2015-06-16 10:00:49";}}

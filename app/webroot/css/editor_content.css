@@ -1,0 +1,15 @@
+body 
+{
+    font-size: 13px;
+}
+.mceNonEditable
+{
+    border: 1px dotted #e32;
+    background-color: #fcefa1; 
+}
+.mceNonEditable::before
+{
+}
+.mceNonEditable::after
+{
+}

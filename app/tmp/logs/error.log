@@ -1,0 +1,80 @@
+
+2015-07-08 07:01:38 Error: [MissingActionException] Action ConfigurationsController::admin_customstyles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfigurationsController',
+  'action' => 'admin_customstyles',
+)
+Request URL: /Eb_new/admin/configurations/customstyles
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ConfigurationsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 07:07:15 Error: [MissingActionException] Action ConfigurationsController::admin_customstyles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfigurationsController',
+  'action' => 'admin_customstyles',
+)
+Request URL: /Eb_new/admin/configurations/customstyles
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ConfigurationsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 07:13:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Charts.created' in 'order clause'
+Request URL: /Eb_new/
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/Eb_new/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `OrgChar...', Array)
+#2 /var/www/Eb_new/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `OrgChar...', Array, Array)
+#3 /var/www/Eb_new/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `OrgChar...', false)
+#4 /var/www/Eb_new/lib/Cake/Model/Model.php(2700): DboSource->read(Object(AppModel), Array)
+#5 /var/www/Eb_new/app/Controller/FlowchartsController.php(75): Model->find('all', Array)
+#6 [internal function]: FlowchartsController->latestorganization()
+#7 /var/www/Eb_new/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FlowchartsController), Array)
+#8 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(FlowchartsController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/Eb_new/lib/Cake/Core/Object.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#11 /var/www/Eb_new/app/View/Dashboard/index.ctp(93): Object->requestAction(Array)
+#12 /var/www/Eb_new/lib/Cake/View/View.php(945): include('/var/www/Eb_new...')
+#13 /var/www/Eb_new/lib/Cake/View/View.php(907): View->_evaluate('/var/www/Eb_new...', Array)
+#14 /var/www/Eb_new/lib/Cake/View/View.php(471): View->_render('/var/www/Eb_new...')
+#15 /var/www/Eb_new/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#16 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#17 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#18 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2015-07-08 07:15:39 Error: [MissingActionException] Action ConfigurationsController::admin_customstyles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfigurationsController',
+  'action' => 'admin_customstyles',
+)
+Request URL: /Eb_new/admin/configurations/customstyles
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ConfigurationsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 07:24:47 Error: [MissingActionException] Action ConfigurationsController::admin_customstyles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ConfigurationsController',
+  'action' => 'admin_customstyles',
+)
+Request URL: /Eb_new/admin/configurations/customstyles
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ConfigurationsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 07:25:26 Error: [MissingViewException] View file "/var/www/Eb_new/app/View/Dashboard/getmentions.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Eb_new/app/View/Dashboard/getmentions.ctp',
+)
+Request URL: /Eb_new/dashboard/getmentions
+Stack Trace:
+#0 /var/www/Eb_new/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/Eb_new/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/Eb_new/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Eb_new/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,0 +1,89 @@
+ClientEngage Project Platform Version: 1.4.3
+
+Changelog
+06/07/2014:
+    - Release of ClientEngage Project Platform v1.4.3
+        - Fixed a minor issue surrounding the status-change of tasks
+22/06/2013:
+    - Release of ClientEngage Project Platform v1.4.2
+        - NEW: jQuery Chosen plugin for client selection
+        - Framework upgrade
+06/05/2013:
+    - Release of ClientEngage Project Platform v1.4.1
+        - NEW: Ajax search engine for Projects, Phases & Comments
+        - NEW: You can now move project phases by changing start or end dates
+        - NEW: New button in Phase-view to hide all comments that are not tasks        
+        - NEW: Editor now pastes plain text as default + new editing-options
+        - NEW: added Spanish translation:
+                - a HUGE thank you goes out to the contributor: http://www.accroachcode.com/
+        - Fixed minor issues
+                - calendar now in front-end layout
+                - Fixed where next month's events were missing in current month (clients)
+                - Added a spacer between progress & button on small screens
+                - Removed autolinking feature (caused trouble with WYSIWYG), instead included link/unlink buttons in editor toolbar
+17/02/2013:
+    - Release of ClientEngage Project Platform v1.3.3
+        - NEW: favourite-projects function for quick access to your projects
+        - NEW: URLs (http://[...]) are now auto-linked
+        - NEW: new configuration option to reverse the display of comments (newest first)
+        - NEW: added Dutch translation:
+                - a HUGE thank you goes out to the contributor: http://www.top-motion.be
+        - Fixed minor issues
+                - fixed instances where the installer failed for some users
+                - Linked all project/client/user/phase names to the respective view-pages
+                - projects in client-view displayed in order of newest first
+                - new quick-access to "Add Phase" function
+                - CakePHP framework update (2.3)
+                - Twitter Bootstrap Update
+                - and countless more minor improvements
+02/12/2012: 
+    - Release of ClientEngage Project Platform v1.2.9
+        - NEW: calendar-overview of project phases
+        - NEW: users and administrators can now choose to deactivate email notifications
+        - NEW: added Portuguese and Russian translations
+                - a HUGE thank you goes out to the contributors:
+                    - Russian:    http://www.garipov.com/
+                    - Portuguese: http://www.ibsolutions.com.br/
+        - Fixed minor issues:
+                - WYSIWYG editor fixed for certain client-configurations
+                - The WYSIWYG editor now only fills the available width (caused some issues with regards to controls being hidden in the overflow)
+                - Fixed a problem where some users were unable to delete clients
+                - DateTime values are now properly localised according to the selected language
+                - Fixed an issue whereby Phases' start- and end dates might be saved incorrectly in some timezones
+10/10/2012: 
+    - Release of ClientEngage Project Platform v1.2.1
+        - NEW: user-specific language and timezone handling
+        - NEW: ability to duplicate projects for easy re-use in the future
+        - NEW: ability to check notification checkboxes by default
+        - Framework update
+        - Fixed an issue that caused a small number of users to see an error message when saving comments
+        - Various enhancements and smaller bug-fixes under the bonnet
+02/09/2012: 
+    - Release of ClientEngage Project Platform v1.1.5
+         - NEW: Configurable email notifications for various activities
+         - Minor changes to SMTP email delivery method
+		 - Various enhancements under the bonnet
+12/08/2012:
+	- Release of ClientEngage Project Platform v1.1.0
+		- Added the option for clients to update the phase progress (if allowed to)
+		- Implemented an additional email transport method: SMTP
+		- Minor fixes regarding the way custom layouts are displayed
+		- Added a quick-menu for recent projects
+		- Show recent activity-history within user profiles
+		- Configurable size/dimensions of preview-images when hovering the magnifier-icon
+		- Projects can now be archived when done
+		- Added "Finders-functions" for all comments with attachments as well as for searching tasks
+		- Added an updater for future versions
+		- Countless minor improvements
+			- Ability to jump to affected elements from within activity-history
+			- Offline icons now show users' last activity
+			- Longer comment preview texts
+			- Fixed an issue of sub-menu displays that can occur when adapting the system layout
+			- And much more
+20/07/2012: 
+    - Release of ClientEngage Project Platform v1.0.1
+         - Minor translation fixes
+         - Framework update
+         - Documentation update
+10/07/2012: 
+    - Public release of ClientEngage Project Platform v1.0

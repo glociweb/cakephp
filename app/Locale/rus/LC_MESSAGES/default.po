@@ -1,0 +1,2730 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Client Engage Project Platform v1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: ClientEngage <contact@clientengage.com>\n"
+"Language-Team:  <contact@clientengage.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:73
+#: Plugin/Installer/Controller/InstallationController.php:247
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} changed the progress of the phase {PhaseName} from {OldPercentage} to "
+"{NewPercentage}.\n"
+"\n"
+"You can view the affected project phase here: {PhaseUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+"Здравствуйте {UserName},\n"
+"                \n"
+"В проекте {ProjectName} была некоторая активность.\n"
+"\n"
+"{User} изменил процент выполнения этапа {PhaseName} с {OldPercentage} до "
+"{NewPercentage}.\n"
+"\n"
+"Вы можете посмотреть задействованный этап по следующей ссылке: {PhaseUrl}\n"
+"\n"
+"\n"
+"С уважением,\n"
+"{SystemName}\n"
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:85
+#: Plugin/Installer/Controller/InstallationController.php:259
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} has created a new {CommentType} in the phase {PhaseName}.\n"
+"\n"
+"You can view the {CommentType} here: {CommentUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+"Здравствуйте {UserName},\n"
+"                \n"
+"В проекте {ProjectName} была некоторая активность.\n"
+"\n"
+"{User} создал новый {CommentType} в этапе {PhaseName}.\n"
+"\n"
+"Вы можете посмотреть {CommentType} по следущей ссылке: {CommentUrl}\n"
+"\n"
+"\n"
+"С уважением,\n"
+"{SystemName}\n"
+
+#: Config/Migration/1346599744_upgradev1x1x0to1x1x5.php:97
+#: Plugin/Installer/Controller/InstallationController.php:271
+msgid ""
+"Dear {UserName},\n"
+"                \n"
+"There has been some new activity in the project {ProjectName}.\n"
+"\n"
+"{User} has changed the status of a task in the phase {PhaseName} to "
+"{TaskStatus}.\n"
+"\n"
+"You can view the task here: {CommentUrl}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}          \n"
+msgstr ""
+"Здравствуйте {UserName},\n"
+"                \n"
+"В проекте {ProjectName} была некоторая активность.\n"
+"\n"
+"{User} изменил статус задачи в этапе {PhaseName} на {TaskStatus}.\n"
+"\n"
+"Вы можете посмотреть задачу по следующей ссылки: {CommentUrl}\n"
+"\n"
+"\n"
+"С уважением,\n"
+"{SystemName}          \n"
+
+#: Controller/AppController.php:144;239
+msgid "You cannot perform any changes in the demonstration system"
+msgstr "Вы не можете вносить изименения в демонстрационной системе"
+
+#: Controller/AppController.php:182
+msgid "Access not allowed."
+msgstr ""
+
+#: Controller/AttachmentsController.php:87
+msgid "Invalid attachment"
+msgstr "Не корректное прикрепление"
+
+#: Controller/AttachmentsController.php:91
+msgid "Attachment deleted"
+msgstr "Прикрепление удалено"
+
+#: Controller/AttachmentsController.php:94
+msgid "Attachment was not deleted"
+msgstr "Прикрепление небыло удалено"
+
+#: Controller/ClientsController.php:62;83;130;168
+msgid "Invalid client"
+msgstr "Неверный клиент"
+
+#: Controller/ClientsController.php:104;136
+msgid "The client has been saved"
+msgstr "Клиент был сохранен"
+
+#: Controller/ClientsController.php:108;140
+msgid "The client could not be saved. Please, try again."
+msgstr "Клиент не был сохранен. Пожалуйста, попробуйте еще раз."
+
+#: Controller/ClientsController.php:172
+msgid "Client deleted"
+msgstr "Клиент удален"
+
+#: Controller/ClientsController.php:175
+msgid "Client was not deleted"
+msgstr "Клиент не было удален"
+
+#: Controller/CommentsController.php:87;226
+msgid "The comment has been saved"
+msgstr "Комментарий сохранен"
+
+#: Controller/CommentsController.php:98;232
+msgid "The comment could not be saved. Please, try again."
+msgstr "Коментарий небыл быть сохранен. Пожалуйста, попробуйте еще раз."
+
+#: Controller/CommentsController.php:117
+msgid "task"
+msgstr "задача"
+
+#: Controller/CommentsController.php:117
+msgid "comment"
+msgstr "комментарий"
+
+#: Controller/CommentsController.php:161 View/Helper/LayoutHelper.php:596
+msgid "completed"
+msgstr "выполнено"
+
+#: Controller/CommentsController.php:161
+msgid "uncompleted"
+msgstr "не выполнено"
+
+#: Controller/CommentsController.php:214;259
+msgid "Invalid comment"
+msgstr "Не верный комментарий"
+
+#: Controller/CommentsController.php:263
+msgid "Comment deleted"
+msgstr "Комментарий удален"
+
+#: Controller/CommentsController.php:266
+msgid "Comment was not deleted"
+msgstr "Коментарий небыл удален"
+
+#: Controller/CommentsController.php:278;309
+msgid "The task status could not be updated"
+msgstr "Статус задачи не может быть обновлен"
+
+#: Controller/CommentsController.php:306
+msgid "The task status was updated"
+msgstr "Статус задачи был обновлен"
+
+#: Controller/ConfigurationsController.php:58
+msgid "Please provide an email address to send the test-email to."
+msgstr ""
+"Пожалуйста, предоставьте email (получатель) для отправки тестового письма."
+
+#: Controller/ConfigurationsController.php:67
+msgid "Invalid configuration"
+msgstr "Не корректная конфигурация"
+
+#: Controller/ConfigurationsController.php:77
+msgid "The configuration has been saved"
+msgstr "Конфигурация успешно сохранена"
+
+#: Controller/ConfigurationsController.php:81
+msgid "The configuration could not be saved. Please, try again."
+msgstr "Сохранение конфигурации не удалось. Пожалуйста, попробуйте еще раз."
+
+#: Controller/ConfigurationsController.php:103;106
+msgid "ClientEngage Email Delivery Test"
+msgstr "ClientEngage проверка доставки тестового сообщения."
+
+#: Controller/ConfigurationsController.php:111
+msgid ""
+"The SMTP connection could not be established. Please check your details or "
+"select the mail() function and click \"Save Configuration\"."
+msgstr ""
+"Соединение SMTP не было установлено. Пожалуйста, проверьте настройки или "
+"выберите функцию mail() и нажмите \"Сохранить настройки\"."
+
+#: Controller/ConfigurationsController.php:115
+msgid ""
+"The test message was sent via SMTP. Please check if you received the "
+"message. <strong> If you do not receive the test email, it is important that "
+"you review the SMTP details or use the mail() function instead and then "
+"click \"Save Configuration\".</strong>"
+msgstr ""
+"Тестовое письмо с помощью SMTP было успешно отправлен. Пожалуйста, проверьте "
+"доставку письма. <strong> Если вы не получили письмо, необходимо "
+"пересмотреть настройки соединение SMTP или воспользоваться функцией mail"
+"() ,. затем не забудьте нажать кнопку \"Сохранить настройки\"."
+
+#: Controller/NotificationsController.php:71
+msgid "Invalid notification"
+msgstr "Некорректное уведомление"
+
+#: Controller/NotificationsController.php:75
+msgid "Notification deleted"
+msgstr "Уведомление удалено"
+
+#: Controller/NotificationsController.php:78
+msgid "Notification was not deleted"
+msgstr "Уведомление не было удалено"
+
+#: Controller/PhasesController.php:48
+msgid "No project was passed"
+msgstr "Ни один проект не был принят"
+
+#: Controller/PhasesController.php:62;108
+msgid "The phase has been saved"
+msgstr "Этап успешно сохранен"
+
+#: Controller/PhasesController.php:69;113
+msgid "The phase could not be saved. Please, try again."
+msgstr "Этап не был сохранен. Пожалуйста, попробуйте еще раз."
+
+#: Controller/PhasesController.php:102;142;168
+msgid "Invalid phase"
+msgstr "Некорректный этап"
+
+#: Controller/PhasesController.php:146
+msgid "Phase deleted"
+msgstr "Этап удален"
+
+#: Controller/PhasesController.php:149
+msgid "Phase was not deleted"
+msgstr "Этап небыл удален"
+
+#: Controller/PhasesController.php:176
+msgid "Progress update succesful"
+msgstr "Процент исполнения обновлен успешно"
+
+#: Controller/PhasesController.php:186
+msgid "Progress update not successful: please try again"
+msgstr "Процент исполнения не был обновлен: пожалуйста, попробуйте еще раз."
+
+#: Controller/ProjectsController.php:79;109
+msgid "This phase does not exist"
+msgstr "Этот этап не существует"
+
+#: Controller/ProjectsController.php:83;113
+msgid "Phase :phase_num: :phase_title"
+msgstr "Этап :phase_num: :phase_title"
+
+#: Controller/ProjectsController.php:132
+msgid "This project does not exist"
+msgstr "Проект не существует"
+
+#: Controller/ProjectsController.php:194 View/Projects/admin_index.ctp:37
+msgid "Project Overview"
+msgstr "Обзор проекта"
+
+#: Controller/ProjectsController.php:210;228;383;423;453;588
+msgid "Invalid project"
+msgstr "Неверный проект"
+
+#: Controller/ProjectsController.php:238
+msgid "The invitations were successfully sent."
+msgstr "Приглашения успешно отправлены."
+
+#: Controller/ProjectsController.php:243
+msgid "An error occured whilst sending the invitations. Please try again."
+msgstr ""
+"Во время отправки приглашений произошла ошибка. Пожалуйста, попробуйте еще "
+"раз."
+
+#: Controller/ProjectsController.php:359;389
+msgid "The project has been saved"
+msgstr "Проект успешно сохранене."
+
+#: Controller/ProjectsController.php:364;394
+msgid "The project could not be saved. Please, try again."
+msgstr "Проект не удалось сохранить. Пожалуйста, попробуйте еще раз."
+
+#: Controller/ProjectsController.php:427
+msgid "Project deleted"
+msgstr "Проект удален"
+
+#: Controller/ProjectsController.php:430
+msgid "Project was not deleted"
+msgstr "Проект небыл удален"
+
+#: Controller/ProjectsController.php:438
+msgid "The project was successfully duplicated."
+msgstr "Дубликат проекта был успешно создан."
+
+#: Controller/ProjectsController.php:443
+msgid "The project could not be duplicated."
+msgstr "Дубликат проекта не удался."
+
+#: Controller/ProjectsController.php:472
+msgid ""
+"When moving a project, you have to select either the new start date, OR the "
+"new end date."
+msgstr ""
+
+#: Controller/ProjectsController.php:506
+#, fuzzy
+msgid "The project was moved successfully."
+msgstr "Дубликат проекта был успешно создан."
+
+#: Controller/ProjectsController.php:511
+#, fuzzy
+msgid "An error occured whilst moving the project. Please try again"
+msgstr ""
+"Во время отправки приглашений произошла ошибка. Пожалуйста, попробуйте еще "
+"раз."
+
+#: Controller/ProjectsController.php:598
+msgid "You successfully removed the project from your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:602
+msgid "The project could not be removed from your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:614
+msgid "You successfully added the project to your favourites."
+msgstr ""
+
+#: Controller/ProjectsController.php:618
+msgid "The project could not be added to your favourites."
+msgstr ""
+
+#: Controller/UsersController.php:70;183;258;300;440
+msgid "Invalid user"
+msgstr "Некорректный пользователь"
+
+#: Controller/UsersController.php:93;223
+msgid "Invalid administrator"
+msgstr "Некорректный администратор"
+
+#: Controller/UsersController.php:127
+msgid "The user has been created"
+msgstr "Пользователь успешно создан"
+
+#: Controller/UsersController.php:133;200
+msgid "The user could not be saved. Please, try again."
+msgstr "Не удалось создать пользователя. Пожалуйста, попробуйте еще раз."
+
+#: Controller/UsersController.php:160
+msgid "The administrator has been created"
+msgstr "Администратор успешно создан."
+
+#: Controller/UsersController.php:165;240
+#: Plugin/Installer/Controller/InstallationController.php:324
+msgid "The administrator could not be saved. Please, try again."
+msgstr "Не удалось создать администратора. Пожалуйста, попробуйте еще раз."
+
+#: Controller/UsersController.php:195
+msgid "The user has been saved"
+msgstr "Пользователь сохранен"
+
+#: Controller/UsersController.php:235
+msgid "The administrator has been saved"
+msgstr "Администратор сохранен"
+
+#: Controller/UsersController.php:265
+msgid "The changes to your profile were saved"
+msgstr "Изменения Вашего профиля были сохранены"
+
+#: Controller/UsersController.php:271
+msgid "Your profile could not be saved. Please, try again."
+msgstr "Ваш профиль небыл сохранен. Пожалуйста, попробуйте еще раз."
+
+#: Controller/UsersController.php:278
+msgid "Your Profile"
+msgstr "Ваш профиль"
+
+#: Controller/UsersController.php:305
+msgid "You cannot delete the only administrator"
+msgstr "Вы не можете удалить единственного администратора"
+
+#: Controller/UsersController.php:311
+msgid "User deleted"
+msgstr "Пользователь удален"
+
+#: Controller/UsersController.php:314
+msgid "User was not deleted"
+msgstr "Пользователь небыл удален"
+
+#: Controller/UsersController.php:358
+msgid "The system is in maintenance mode."
+msgstr "Система в режиме технического обслуживания."
+
+#: Controller/UsersController.php:362
+msgid "You successfully logged in."
+msgstr "Вы успешно авторизировались."
+
+#: Controller/UsersController.php:370
+msgid "The username/password you provided were incorrect."
+msgstr "Введенные имя пользователя и/или пароль не верны."
+
+#: Controller/UsersController.php:373 View/Users/admin_login.ctp:53;60
+#: View/Users/login.ctp:51;58
+msgid "Login"
+msgstr "Имя пользователя"
+
+#: Controller/UsersController.php:400
+msgid "No user matching the email address could be found"
+msgstr ""
+
+#: Controller/UsersController.php:416
+msgid "Project Platform: Password Reset"
+msgstr ""
+
+#: Controller/UsersController.php:417
+msgid ""
+"Dear :username, \n"
+"\n"
+"Your temporary password is: :temp_password"
+msgstr ""
+
+#: Controller/UsersController.php:419
+msgid ""
+"You have been sent an email with a temporary password. Please check your "
+"inbox."
+msgstr ""
+
+#: Controller/UsersController.php:424
+#, fuzzy
+msgid "An error occurred whilst re-setting your password. Please try again."
+msgstr ""
+"Во время отправки приглашений произошла ошибка. Пожалуйста, попробуйте еще "
+"раз."
+
+#: Controller/UsersController.php:434
+msgid "Personification action not allowed."
+msgstr "Персонализация не доступна."
+
+#: Controller/UsersController.php:443
+msgid "Personification not allowed"
+msgstr "Персонализация не доступна."
+
+#: Controller/UsersController.php:449
+msgid "Personification of admin not allowed"
+msgstr "Персонализация администратора не доступна."
+
+#: Controller/UsersController.php:456
+msgid "You are now personifying :username"
+msgstr "Вы персонализируете :username"
+
+#: Lib/GlobalClasses.php:47 View/Clients/admin_view.ctp:24
+#: View/Users/admin_index.ctp:32 View/Users/admin_view.ctp:27
+msgid "Client"
+msgstr "Клиент"
+
+#: Lib/GlobalClasses.php:48 View/Helper/LayoutHelper.php:488
+msgid "Administrator"
+msgstr "Администратор"
+
+#: Lib/GlobalClasses.php:107
+msgid "Low"
+msgstr "Низкий"
+
+#: Lib/GlobalClasses.php:108
+msgid "Normal"
+msgstr "Средний"
+
+#: Lib/GlobalClasses.php:109
+msgid "High"
+msgstr "Высокий"
+
+#: Lib/GlobalClasses.php:162
+msgid "Upload"
+msgstr "Загрузить"
+
+#: Lib/GlobalClasses.php:163 View/Helper/LayoutHelper.php:395
+msgid "External link"
+msgstr "Внешняя ссылка"
+
+#: Lib/GlobalClasses.php:199
+msgid "English (British)"
+msgstr "Английский (Британский)"
+
+#: Lib/GlobalClasses.php:200
+msgid "English (United States)"
+msgstr "Английский (США)"
+
+#: Lib/GlobalClasses.php:201
+msgid "German (Germany)"
+msgstr "Немецкий"
+
+#: Lib/GlobalClasses.php:202
+msgid "Dutch"
+msgstr ""
+
+#: Lib/GlobalClasses.php:203
+msgid "Portuguese"
+msgstr ""
+
+#: Lib/GlobalClasses.php:204
+msgid "Russian"
+msgstr ""
+
+#: Lib/GlobalClasses.php:205
+msgid "Spanish"
+msgstr ""
+
+#: Model/Comment.php:62
+msgid "completed_date"
+msgstr "дата_завершения"
+
+#: Model/Configuration.php:249
+msgid "Please enter the invitation template."
+msgstr "Пожалуйста, введите шаблон приглашения."
+
+#: Model/Configuration.php:254
+msgid ""
+"You need to use the placeholders {StartIsNewUser} and {EndIsNewUser} one "
+"each."
+msgstr "Вы должны поместить кажду метку: {StartIsNewUser} и {EndIsNewUser}."
+
+#: Model/Configuration.php:257
+msgid ""
+"You need to use each of the placeholders {StartIsNewUser} and {EndIsNewUser} "
+"only once."
+msgstr ""
+"Вы должны поместить метки {StartIsNewUser} и {EndIsNewUser} лишь по одному "
+"разу"
+
+#: Model/Configuration.php:260
+msgid "{EndIsNewUser} has to be inserted after {StartIsNewUser}"
+msgstr "{EndIsNewUser} должно стоять после {StartIsNewUser}"
+
+#: Model/Phase.php:66
+msgid "percent_completed"
+msgstr "процентов_выполнено"
+
+#: Model/Phase.php:263
+msgid "The end date has to be on or after the start date."
+msgstr "Дата окончания должна быть не раньше даты начала."
+
+#: Model/Project.php:316
+msgid "_Copy"
+msgstr "_Копировать"
+
+#: Plugin/Installer/Controller/InstallationController.php:115;340;378
+msgid ""
+"You have successfully installed ClientEngage. You may now log-in with your "
+"administrator profile."
+msgstr ""
+"Вы успешно установили ClientEngage. Вы можете авторизоваться с помощью "
+"логина администратора."
+
+#: Plugin/Installer/Controller/InstallationController.php:121
+#, fuzzy
+msgid "Installation cannot continue, please accept the EULA"
+msgstr "Установка не может быть продолжена"
+
+#: Plugin/Installer/Controller/InstallationController.php:145
+msgid ""
+"You have already configured the database connection. Please proceed with the "
+"installation."
+msgstr ""
+"Вы уже сконфигурировали соединение с Базой Данный. Пожалуйста, продолжите "
+"установку."
+
+#: Plugin/Installer/Controller/InstallationController.php:168
+msgid "Could not connect to the database. Please review the configuration."
+msgstr ""
+"Не удается подключиться к Базе Данный. Пожалуйста, проверьте конфигурацию."
+
+#: Plugin/Installer/Controller/InstallationController.php:175
+msgid "Could not write the database configuration."
+msgstr "Не возможно записать конфигурацию соединения с БД."
+
+#: Plugin/Installer/Controller/InstallationController.php:179
+msgid "Your database configuration was successfull."
+msgstr "Настройка соединения с Базой Данных прошла успешно."
+
+#: Plugin/Installer/Controller/InstallationController.php:189;217
+msgid "Could not connect to the database. Please review your configuration."
+msgstr ""
+"Невозможно соедениться с базой данны. Пожалуйста, проверьте настройки "
+"соединения."
+
+#: Plugin/Installer/Controller/InstallationController.php:206;302
+msgid ""
+"The database was not properly initialised. Please re-start the installation."
+msgstr ""
+"База данных не корректно инициализирована. Пожалуйста, перезапустите "
+"установку."
+
+#: Plugin/Installer/Controller/InstallationController.php:212
+msgid "Configuration already exists. Please continue."
+msgstr "Конфигурация уже существуюет. Пожалуйста, продолжите."
+
+#: Plugin/Installer/Controller/InstallationController.php:222
+msgid ""
+"Not all tables were initialised successfully. Please drop all initialised "
+"tables and re-start the installation."
+msgstr ""
+"Не все таблицы были успешно установлены. Пожалуйста, удалите все "
+"установленные таблицы и начните установку заново."
+
+#: Plugin/Installer/Controller/InstallationController.php:228
+msgid ""
+"Dear {UserName},\n"
+"\n"
+"You have been invited to join the project {ProjectName} on our online "
+"project management portal.\n"
+"\n"
+"This will enable you to participate in following the project's progress as "
+"well as allow you to comment on any of the project's phases.\n"
+"\n"
+"You can log-on to the project here: {ProjectUrl}\n"
+"\n"
+"Your username is: {UserEmail}\n"
+"{StartIsNewUser}\n"
+"Your temporary password is: {TempPassword}\n"
+"\n"
+"Please make sure you change your temporary password during your first "
+"visit.\n"
+"{EndIsNewUser}\n"
+"\n"
+"\n"
+"Kind regards,\n"
+"{SystemName}\n"
+msgstr ""
+"Здравствуйте {UserName},\n"
+"\n"
+"Вы приглашены присоедениться к проекту {ProjectName} на нашем портале online "
+"project management.\n"
+"\n"
+"Это позволяет вам принять участие в ходе проекта, а так же дает возможность "
+"комментировать любой этап проекта.\n"
+"\n"
+"Вы можете войти в систему по следующей ссылке: {ProjectUrl}\n"
+"\n"
+"Ваш Логин: {UserEmail}\n"
+"{StartIsNewUser}\n"
+"Ваш временный пароль: {TempPassword}\n"
+"\n"
+"Пожалуйста, измените Ваш временный пароль во время первого визита.\n"
+"{EndIsNewUser}\n"
+"\n"
+"\n"
+"С уважением,\n"
+"{SystemName}\n"
+
+#: Plugin/Installer/Controller/InstallationController.php:287
+msgid "The system configuration was saved successfully."
+msgstr "Конфигурация системы успешно сохранена."
+
+#: Plugin/Installer/Controller/InstallationController.php:292
+msgid "Could not save the system configuration. Please review your inputs."
+msgstr ""
+"Не удалось сохранить конфигурацию системы. Пожалуйста, проверьте введенные "
+"данные."
+
+#: Plugin/Installer/Controller/InstallationController.php:308
+msgid "Administrator already exists. Please continue."
+msgstr "Администратор уже существует. Пожалуйста, продолжите."
+
+#: Plugin/Installer/Controller/InstallationController.php:319
+msgid "The administrator has been created."
+msgstr "Администратор был успешно создан."
+
+#: Plugin/Installer/Controller/InstallationController.php:368
+msgid ""
+"<h4>Could not write to the security configuration. Please make sure the file "
+"is writable.</h4><code>:security_core</code>"
+msgstr ""
+"<h4>Не удалось записать информацию. Пожалуйста, убедитесь, что файл доступен "
+"для записи.</h4><code>:security_core</code>"
+
+#: Plugin/Installer/Controller/InstallationController.php:383
+msgid "Could not create the administrative user. Please try again."
+msgstr "Не удалось создать администратора. Пожалуйста, попробуйте еще раз."
+
+#: Plugin/Installer/Controller/InstallationController.php:480
+msgid "You must enter the database host."
+msgstr "Вы должны ввести сервер Базы Данных."
+
+#: Plugin/Installer/Controller/InstallationController.php:481
+msgid "You must enter the database name."
+msgstr "Вы должны ввести имя базы данных."
+
+#: Plugin/Installer/Controller/InstallationController.php:482
+msgid "You must enter the database username."
+msgstr "Вы должны ввести логин к базе данных."
+
+#: Plugin/Installer/Controller/InstallationController.php:498
+msgid "Please enter valid database settings."
+msgstr "Пожалуйста, введите корректные настройки базы данных."
+
+#: Plugin/Installer/Controller/InstallationController.php:580
+msgid ""
+"<h4>The table \":table_name\" could not be created. Please clear any "
+"existing ClientEngage tables before continuing the installation.</h4>:"
+"error_message"
+msgstr ""
+"<h4>Таблица \":table_name\" не может быть создана. Пожалуйста удалите все "
+"существующие таблицы ClientEngage перед тем как продолжить установку.</h4>:"
+"error_message"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:49
+msgid "Administrator Settings"
+msgstr "Настройки администратора"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:50
+#: View/Clients/admin_view.ctp:61
+#: View/Configurations/admin_email.ctp:68;77;96;112;128
+#: View/Users/admin_add.ctp:29 View/Users/admin_administrators.ctp:32
+#: View/Users/admin_administrators_add.ctp:28
+#: View/Users/admin_administrators_edit.ctp:29
+#: View/Users/admin_administrators_view.ctp:27 View/Users/admin_edit.ctp:30
+#: View/Users/admin_index.ctp:33 View/Users/admin_view.ctp:32
+#: View/Users/profile.ctp:29
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:51
+#: View/Clients/admin_view.ctp:62 View/Users/admin_add.ctp:30
+#: View/Users/admin_administrators.ctp:33
+#: View/Users/admin_administrators_add.ctp:29
+#: View/Users/admin_administrators_edit.ctp:30
+#: View/Users/admin_administrators_view.ctp:32 View/Users/admin_edit.ctp:31
+#: View/Users/admin_index.ctp:34 View/Users/admin_login.ctp:57
+#: View/Users/admin_view.ctp:37 View/Users/forgotten_password.ctp:55
+#: View/Users/login.ctp:55 View/Users/profile.ctp:30
+msgid "Email"
+msgstr "Email"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:52
+#: Plugin/Installer/View/Installation/database_setup.ctp:52
+#: View/Configurations/admin_email.ctp:69
+#: View/Users/admin_administrators_add.ctp:30 View/Users/admin_login.ctp:58
+#: View/Users/login.ctp:56
+msgid "Password"
+msgstr "Пароль"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:52
+#: View/Users/admin_administrators_add.ctp:30
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Enter new password"
+msgstr "Введите новый пароль"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:53
+#: View/Users/admin_administrators_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:32 View/Users/admin_edit.ctp:33
+#: View/Users/profile.ctp:32
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:53
+#: View/Users/admin_administrators_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:32 View/Users/admin_edit.ctp:33
+#: View/Users/profile.ctp:32
+msgid "Repeat new password"
+msgstr "Повторите новый пароль"
+
+#: Plugin/Installer/View/Installation/administrator.ctp:57
+msgid "Finalise Installation"
+msgstr "Завершить установку"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:49
+msgid "Database Host"
+msgstr "Хост БД"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:50
+msgid "TCP Port / UNIX Socket"
+msgstr "TCP Port / UNIX Socket"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:50
+msgid "Optional"
+msgstr "Не обязательно"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:51
+msgid "Database Username"
+msgstr "Пользователь БД"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:53
+msgid "Database Name"
+msgstr "Пользователь БД"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:54
+msgid "Table Prefix"
+msgstr "Префикс"
+
+#: Plugin/Installer/View/Installation/database_setup.ctp:55
+#: Plugin/Installer/View/Installation/settings.ctp:59
+msgid "Continue"
+msgstr "Далее"
+
+#: Plugin/Installer/View/Installation/finalisation.ctp:51
+msgid "Perform Final Configurations"
+msgstr "Выполните окончательные настройки"
+
+#: Plugin/Installer/View/Installation/index.ctp:51
+#: Plugin/Updater/View/Update/index.ctp:47
+msgid "Your temporary directory is writable."
+msgstr "Папки временных файлов доступны к записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:55
+#: Plugin/Updater/View/Update/index.ctp:51
+msgid "Your temporary directory is not writable."
+msgstr "Папки временных файлов не доступны к записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:56;66;76;86
+#: Plugin/Updater/View/Update/index.ctp:52;62;74;85
+msgid "Please make the following path writable: "
+msgstr "Пожалуйста, сделайте слудеющее доступным к записи:"
+
+#: Plugin/Installer/View/Installation/index.ctp:61
+#: Plugin/Updater/View/Update/index.ctp:57
+msgid "Your configuration directory is writable."
+msgstr "Папка конфигурации доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:65
+#: Plugin/Updater/View/Update/index.ctp:61
+msgid "Your configuration directory is not writable."
+msgstr "Папка конфигурации не доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:71
+msgid "Your security configuration is writable."
+msgstr "Папка безопасности доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:75
+msgid "Your security configuration is not writable."
+msgstr "Папка безоспасности не доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:81
+#: Plugin/Updater/View/Update/index.ctp:80
+msgid "Your upload directory is writable."
+msgstr "Папка для загрузок доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:85
+#: Plugin/Updater/View/Update/index.ctp:84
+msgid "Your upload directory is not writable."
+msgstr "Папка для загрузок не доступна для записи."
+
+#: Plugin/Installer/View/Installation/index.ctp:91
+#: Plugin/Updater/View/Update/index.ctp:90
+msgid ""
+"The PHP version running on your server (%s) fulfills the minimum requirement "
+"(5.2.8)."
+msgstr ""
+"Версия PHP на вашем сервере  (%s) выполняет минимальный набор требований "
+"(5.2.8)."
+
+#: Plugin/Installer/View/Installation/index.ctp:95
+#: Plugin/Updater/View/Update/index.ctp:94
+msgid ""
+"The PHP version running on your server (%s) does not fulfill the minimum "
+"requirement (5.2.8)."
+msgstr ""
+"Версия PHP на вашем сервере (%s) не отвечает минимальным требованиям (5.2.8)."
+
+#: Plugin/Installer/View/Installation/index.ctp:101
+#: Plugin/Updater/View/Update/index.ctp:100
+msgid "The PDO extensions are loaded."
+msgstr "Разширение PDO загружено."
+
+#: Plugin/Installer/View/Installation/index.ctp:105
+#: Plugin/Updater/View/Update/index.ctp:104
+msgid "The necessary PDO extensions are not loaded."
+msgstr "Необходимое расширение PDO не загружено."
+
+#: Plugin/Installer/View/Installation/index.ctp:106
+#: Plugin/Updater/View/Update/index.ctp:105
+msgid ""
+"Please enable the PHP PDO extension as well as the MySQL PDO extension. You "
+"may have to ask your hosting-provider to enable these."
+msgstr ""
+"Пожалуйста, включите поддержку PHP PDO, а так же поддержку MySQL PDO. "
+"Возможно для этого вам будетнеобходимо связаться со своим провайдером "
+"хостинга."
+
+#: Plugin/Installer/View/Installation/index.ctp:281
+#: Plugin/Updater/View/Update/index.ctp:279
+msgid "I agree to the above terms."
+msgstr "Я согласен."
+
+#: Plugin/Installer/View/Installation/index.ctp:282
+msgid "Begin Installation"
+msgstr "Начать установку."
+
+#: Plugin/Installer/View/Installation/index.ctp:287
+#: Plugin/Updater/View/Update/index.ctp:285
+msgid ""
+"Unfortunately, the installation cannot proceed due to the minimum "
+"requirements not being met."
+msgstr ""
+"К сожалению, установка не может продолжаться, т.к. система не отвечает "
+"минимальным техническим требованиям."
+
+#: Plugin/Installer/View/Installation/initialisation.ctp:45
+msgid ""
+"You have successfully configured the database connection. Please click \":"
+"btn_name\" to create all necessary database tables."
+msgstr ""
+"Вы успешно настроили соединение с базой данный. Пожалуйста, нажмите \":"
+"btn_name\" чтобы создать необходимые таблицы."
+
+#: Plugin/Installer/View/Installation/initialisation.ctp:45;48
+msgid "Initialise Database"
+msgstr "Инициализация Базы данных"
+
+#: Plugin/Installer/View/Installation/settings.ctp:49
+#: View/Elements/layout/topbar.ctp:74
+msgid "System Settings"
+msgstr "Системные настройки"
+
+#: Plugin/Installer/View/Installation/settings.ctp:51
+#: View/Configurations/admin_email.ctp:84;103;119;135
+#: View/Configurations/admin_index.ctp:44
+msgid "System Name"
+msgstr "Название системы"
+
+#: Plugin/Installer/View/Installation/settings.ctp:52
+#: View/Configurations/admin_index.ctp:45 View/Users/admin_add.ctp:32
+#: View/Users/admin_administrators_add.ctp:32
+#: View/Users/admin_administrators_edit.ctp:34 View/Users/admin_edit.ctp:35
+#: View/Users/profile.ctp:33
+msgid "System Language"
+msgstr "Язык"
+
+#: Plugin/Installer/View/Installation/settings.ctp:53
+#: View/Configurations/admin_email.ctp:58
+msgid "Email Settings"
+msgstr "Настройки Email"
+
+#: Plugin/Installer/View/Installation/settings.ctp:54
+#: View/Configurations/admin_email.ctp:60
+msgid "Sender Email"
+msgstr "Email отправителя"
+
+#: Plugin/Installer/View/Installation/settings.ctp:55
+#: View/Configurations/admin_email.ctp:61
+msgid "Sender Name"
+msgstr "Имя отправителя"
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:111
+msgid "Plugin name to be used"
+msgstr "Метод отправки"
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:115
+msgid "Force 'generate' to compare all tables."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:119
+msgid "Set db config <config>. Uses 'default' if none is specified."
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:124
+msgid ""
+"Disables automatic creation of migrations table and running any internal "
+"plugin migrations"
+msgstr ""
+"Отключает автоматическое создание миграционных таблиц и запуск любых "
+"внутренних плагинов миграции"
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:126
+msgid "Displays a status of all plugin and app migrations."
+msgstr "Отображает статус всех плагинов и приложений миграции."
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:128
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr ""
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:130
+msgid "Run a migration to given direction or version."
+msgstr "Запустить миграцию в заданном направлении."
+
+#: Plugin/Migrations/Console/Command/MigrationShell.php:132;134
+msgid "Generates a migration file."
+msgstr "Создается файл миграции."
+
+#: Plugin/Updater/Controller/UpdateController.php:66
+msgid "No update necessary."
+msgstr "Нет необходимости обновлять."
+
+#: Plugin/Updater/Controller/UpdateController.php:72
+#, fuzzy
+msgid "Update cannot continue, please accept the EULA"
+msgstr "Обновление остановлено"
+
+#: Plugin/Updater/Controller/UpdateController.php:106
+msgid "An error has occured whilst running the update: "
+msgstr "В процессе обновления произошла ошибка:"
+
+#: Plugin/Updater/Controller/UpdateController.php:124
+msgid ""
+"Part of the update could not be performed. The new version information could "
+"not be applied. Please open the following file and replace the version "
+"number with \":version\": "
+msgstr ""
+"Часть обновления не может быть выполнена. Обновлениие не применено. "
+"Пожалуйста, откройте следующий файл и замените номер версии \":version\": "
+
+#: Plugin/Updater/Controller/UpdateController.php:131
+msgid ""
+"Part of the update could not be performed. Please delete the following file: "
+msgstr ""
+"Часть обновление не может быть применена. Пожалуйста, удалите следующий файл:"
+
+#: Plugin/Updater/Controller/UpdateController.php:135
+msgid "You have successfully updated the ClientEngage Project Platform to v"
+msgstr "Вы успешно обновиди систему ClientEngage Project Platform до версии"
+
+#: Plugin/Updater/View/Update/index.ctp:69
+msgid "Your version file is writable."
+msgstr "Файл версии доступен для записи."
+
+#: Plugin/Updater/View/Update/index.ctp:73
+msgid "Your version file is not writable."
+msgstr "Файл версии защищен от записи."
+
+#: Plugin/Updater/View/Update/index.ctp:280
+msgid "Perform Update"
+msgstr "Выполнить обновление"
+
+#: View/Attachments/admin_index.ctp:2;12 View/Comments/admin_index.ctp:12
+msgid "Attachments"
+msgstr "Прикрепления"
+
+#: View/Attachments/admin_index.ctp:6 View/Comments/admin_index.ctp:6
+#: View/Notifications/admin_index.ctp:28 View/Projects/admin_index.ctp:41
+msgid "Sorting Options: "
+msgstr "Сортировать по:"
+
+#: View/Attachments/admin_index.ctp:9 View/Comments/admin_index.ctp:9
+#: View/Notifications/admin_index.ctp:31 View/Projects/admin_index.ctp:46
+msgid "Reset"
+msgstr "Сброс"
+
+#: View/Attachments/admin_index.ctp:10 View/Comments/admin_index.ctp:10
+#: View/Notifications/admin_index.ctp:33
+msgid "Phase"
+msgstr "Этап"
+
+#: View/Attachments/admin_index.ctp:11 View/Comments/add.ctp:28
+#: View/Comments/admin_edit.ctp:29 View/Comments/admin_index.ctp:11
+msgid "Comment"
+msgstr "Комментарий"
+
+#: View/Attachments/admin_index.ctp:13 View/Clients/admin_index.ctp:33
+#: View/Clients/admin_view.ctp:32;66;102 View/Comments/admin_index.ctp:13
+#: View/Projects/admin_index.ctp:53
+#: View/Projects/admin_prepareinvitation.ctp:82
+#: View/Projects/admin_view.ctp:72;114;160
+#: View/Users/admin_administrators.ctp:37
+#: View/Users/admin_administrators_view.ctp:57 View/Users/admin_index.ctp:38
+#: View/Users/admin_view.ctp:67
+msgid "Created"
+msgstr "Создан"
+
+#: View/Attachments/admin_index.ctp:36 View/Comments/admin_index.ctp:49
+#: View/Helper/LayoutHelper.php:245;280
+msgid "View"
+msgstr "Посмотреть"
+
+#: View/Attachments/admin_index.ctp:42 View/Comments/admin_index.ctp:55
+msgid "Currently, no attachments exist."
+msgstr "На данный момент, нет прикреплений."
+
+#: View/Clients/admin_add.ctp:26
+msgid "Add Client"
+msgstr "Добавить клиента"
+
+#: View/Clients/admin_add.ctp:28 View/Clients/admin_edit.ctp:29
+#: View/Clients/admin_index.ctp:32 View/Clients/admin_view.ctp:27
+#: View/Phases/admin_add.ctp:28 View/Phases/admin_edit.ctp:29
+#: View/Projects/admin_add.ctp:37 View/Projects/admin_edit.ctp:38
+#: View/Projects/admin_prepareinvitation.ctp:42
+#: View/Projects/admin_view.ctp:27;109
+msgid "Name"
+msgstr "Имя"
+
+#: View/Clients/admin_add.ctp:29 View/Clients/admin_edit.ctp:31
+#: View/Elements/layout/topbar.ctp:86 View/Projects/search.ctp:30
+#: View/Projects/search_projects.ctp:25
+#: View/Projects/search_suggestions.ctp:25
+msgid "Projects"
+msgstr "Проекты"
+
+#: View/Clients/admin_add.ctp:33
+msgid "Create Client"
+msgstr "Создать клиента"
+
+#: View/Clients/admin_add.ctp:34 View/Clients/admin_edit.ctp:36
+#: View/Elements/comments/createform.ctp:75 View/Phases/admin_edit.ctp:64
+#: View/Projects/admin_add.ctp:44 View/Projects/admin_edit.ctp:48
+#: View/Projects/admin_move.ctp:37 View/Users/admin_add.ctp:41
+#: View/Users/admin_administrators_add.ctp:40
+#: View/Users/admin_administrators_edit.ctp:45 View/Users/admin_edit.ctp:46
+msgid "Cancel"
+msgstr "Отменить"
+
+#: View/Clients/admin_edit.ctp:26 View/Clients/admin_view.ctp:49
+msgid "Edit Client"
+msgstr "Редактировать клиента"
+
+#: View/Clients/admin_edit.ctp:35 View/Phases/admin_edit.ctp:63
+#: View/Projects/admin_edit.ctp:47 View/Users/admin_administrators_edit.ctp:44
+#: View/Users/admin_edit.ctp:45
+msgid "Save"
+msgstr "Сохранить"
+
+#: View/Clients/admin_edit.ctp:41 View/Clients/admin_index.ctp:35
+#: View/Clients/admin_view.ctp:46;67;104 View/Elements/comments/comment.ctp:41
+#: View/Elements/phase/phaseheader.ctp:24 View/Helper/LayoutHelper.php:233;268
+#: View/Phases/admin_edit.ctp:68 View/Projects/admin_edit.ctp:53
+#: View/Projects/admin_prepareinvitation.ctp:96
+#: View/Projects/admin_view.ctp:87;115;162 View/Projects/dashboard.ctp:29
+#: View/Projects/phase.ctp:277 View/Users/admin_administrators.ctp:39
+#: View/Users/admin_administrators_edit.ctp:50
+#: View/Users/admin_administrators_view.ctp:71 View/Users/admin_edit.ctp:51
+#: View/Users/admin_index.ctp:40 View/Users/admin_view.ctp:81
+msgid "Actions"
+msgstr "Действия"
+
+#: View/Clients/admin_edit.ctp:44
+msgid "View Client"
+msgstr "Просмотр клиента"
+
+#: View/Clients/admin_edit.ctp:45 View/Helper/LayoutHelper.php:104;252;285
+#: View/Phases/admin_edit.ctp:72 View/Projects/admin_edit.ctp:57
+#: View/Users/admin_edit.ctp:55
+msgid "Delete"
+msgstr "Удалить"
+
+#: View/Clients/admin_edit.ctp:45 View/Clients/admin_view.ctp:50
+#: View/Projects/admin_edit.ctp:57 View/Projects/admin_view.ctp:93
+#: View/Users/admin_administrators_edit.ctp:54
+#: View/Users/admin_administrators_view.ctp:75 View/Users/admin_edit.ctp:55
+#: View/Users/admin_view.ctp:85
+msgid "Are you sure you want to delete %s?"
+msgstr "Вы уверены что хотите удалить %s?"
+
+#: View/Clients/admin_edit.ctp:46
+msgid "List Clients"
+msgstr "Список клиентов"
+
+#: View/Clients/admin_index.ctp:26
+msgid "New Client"
+msgstr "Новый клиент"
+
+#: View/Clients/admin_index.ctp:29
+msgid "Client Overview"
+msgstr "Обзор клиента"
+
+#: View/Clients/admin_index.ctp:34 View/Clients/admin_view.ctp:37;103
+#: View/Projects/admin_index.ctp:52
+#: View/Projects/admin_prepareinvitation.ctp:87
+#: View/Projects/admin_view.ctp:77;161 View/Users/admin_administrators.ctp:38
+#: View/Users/admin_administrators_view.ctp:62 View/Users/admin_index.ctp:39
+#: View/Users/admin_view.ctp:72
+msgid "Modified"
+msgstr "Изменено"
+
+#: View/Clients/admin_index.ctp:49
+msgid "Currently, no clients exist."
+msgstr "В данный момент нет ни одного клиента."
+
+#: View/Clients/admin_view.ctp:50
+msgid "Delete Client"
+msgstr "Удалить клиента"
+
+#: View/Clients/admin_view.ctp:51
+msgid "Back to Client Overview"
+msgstr "Вернуться к обзору клиента"
+
+#: View/Clients/admin_view.ctp:57
+msgid "This Client's Users"
+msgstr "Пользователия клиента"
+
+#: View/Clients/admin_view.ctp:63 View/Users/admin_add.ctp:34
+#: View/Users/admin_administrators.ctp:34
+#: View/Users/admin_administrators_add.ctp:34
+#: View/Users/admin_administrators_edit.ctp:36
+#: View/Users/admin_administrators_view.ctp:37 View/Users/admin_edit.ctp:37
+#: View/Users/admin_index.ctp:35 View/Users/admin_view.ctp:47
+msgid "Active"
+msgstr "Активный"
+
+#: View/Clients/admin_view.ctp:64
+msgid "Avatarpath"
+msgstr "Путь к аватарке"
+
+#: View/Clients/admin_view.ctp:65 View/Users/admin_administrators.ctp:36
+#: View/Users/admin_administrators_view.ctp:52 View/Users/admin_index.ctp:37
+#: View/Users/admin_view.ctp:62
+msgid "Last Active"
+msgstr "Последняя активность"
+
+#: View/Clients/admin_view.ctp:87;123
+#: View/Elements/projects/admin_overview.ctp:42
+#: View/Projects/admin_view.ctp:146;179
+msgid "none"
+msgstr "нет"
+
+#: View/Clients/admin_view.ctp:91 View/Users/admin_add.ctp:26
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+#: View/Clients/admin_view.ctp:95
+msgid "Associated Projects"
+msgstr "Относится к проектам"
+
+#: View/Clients/admin_view.ctp:99 View/Notifications/admin_index.ctp:34
+#: View/Projects/admin_index.ctp:47 View/Projects/admin_view.ctp:159
+msgid "Title"
+msgstr "Заголовок"
+
+#: View/Clients/admin_view.ctp:100 View/Phases/admin_add.ctp:29
+#: View/Phases/admin_edit.ctp:31 View/Projects/admin_add.ctp:38
+#: View/Projects/admin_edit.ctp:40 View/Projects/admin_index.ctp:49
+#: View/Projects/admin_prepareinvitation.ctp:52
+#: View/Projects/admin_view.ctp:37;110 View/Projects/phase.ctp:51
+msgid "Description"
+msgstr "Описание"
+
+#: View/Clients/admin_view.ctp:101
+#: View/Elements/projects/admin_overview.ctp:44
+#: View/Elements/projects/overview.ctp:35 View/Projects/admin_index.ctp:50
+#: View/Projects/admin_prepareinvitation.ctp:57
+#: View/Projects/admin_view.ctp:42 View/Projects/dashboard.ctp:38
+#: View/Projects/search.ctp:51 View/Projects/search_phases.ctp:25
+#: View/Projects/search_suggestions.ctp:34
+msgid "Phases"
+msgstr "Этапы"
+
+#: View/Comments/add.ctp:26
+msgid "Add Comment"
+msgstr "Добавить комментарий"
+
+#: View/Comments/add.ctp:29 View/Comments/admin_edit.ctp:30
+#: View/Elements/comments/createform.ctp:37
+#, fuzzy
+msgid "Hide from Clients"
+msgstr "Просмотр клиента"
+
+#: View/Comments/add.ctp:30 View/Comments/admin_edit.ctp:31
+#: View/Elements/comments/createform.ctp:49
+#: View/Elements/phase/phaseheader.ctp:98 View/Helper/LayoutHelper.php:200
+msgid "Send email notification to project members?"
+msgstr "Отправить уведомление участникам проекта?"
+
+#: View/Comments/add.ctp:31 View/Comments/admin_edit.ctp:33
+msgid "Make this a task?"
+msgstr "Сделать задачей?"
+
+#: View/Comments/add.ctp:32 View/Comments/admin_edit.ctp:34
+#: View/Comments/admin_index.ctp:34
+msgid "Priority"
+msgstr "Приоритет"
+
+#: View/Comments/add.ctp:36 View/Comments/admin_edit.ctp:39
+#: View/Elements/comments/createform.ctp:74
+msgid "Submit"
+msgstr "Отправить"
+
+#: View/Comments/admin_edit.ctp:26
+msgid "Edit Comment"
+msgstr "Редактировать комментарий"
+
+#: View/Comments/admin_edit.ctp:31
+msgid ""
+"Ticking this option will re-send the Comment-Created message. This is useful "
+"if a comment was hidden from clients until now."
+msgstr ""
+
+#: View/Comments/admin_edit.ctp:35
+msgid "Completed IP"
+msgstr "IP адрес"
+
+#: View/Comments/admin_index.ctp:2
+#, fuzzy
+msgid "Tasks"
+msgstr "Задачи"
+
+#: View/Comments/admin_index.ctp:23
+msgid "All"
+msgstr "Все"
+
+#: View/Comments/admin_index.ctp:24;35
+msgid "Completed"
+msgstr "Завершено"
+
+#: View/Comments/admin_index.ctp:25
+msgid "Pending"
+msgstr "Ожидается"
+
+#: View/Comments/admin_index.ctp:35 View/Helper/AppNumberHelper.php:34
+#: View/Helper/AppTimeHelper.php:73;91
+#: View/Helper/LayoutHelper.php:75;122;123;127;128;132;133
+msgid "N/A"
+msgstr "Н/У"
+
+#: View/Configurations/admin_email.ctp:41
+#: View/Configurations/admin_index.ctp:24
+msgid "Edit System Configuration"
+msgstr "Редактировать конфигурацию системы"
+
+#: View/Configurations/admin_email.ctp:48
+#: View/Configurations/admin_index.ctp:31
+msgid "System Configuration"
+msgstr "Конфигурация системы"
+
+#: View/Configurations/admin_email.ctp:49
+#: View/Configurations/admin_index.ctp:32
+msgid "Email Configuration"
+msgstr "Конфигурация Email"
+
+#: View/Configurations/admin_email.ctp:54
+#: View/Configurations/admin_index.ctp:37
+msgid "You can adapt global system settings below:"
+msgstr "Вы можете адоптировать глобальные переменные ниже:"
+
+#: View/Configurations/admin_email.ctp:59
+msgid "Check \"Send Notifications\" by Default"
+msgstr "Галочка \"Отправить уведомления\" по умолчанию"
+
+#: View/Configurations/admin_email.ctp:62
+msgid "Transport Method"
+msgstr "Метод передачи"
+
+#: View/Configurations/admin_email.ctp:62
+msgid "PHP mail() function"
+msgstr "Функция PHP mail()"
+
+#: View/Configurations/admin_email.ctp:62
+msgid "SMTP account"
+msgstr "SMTP сервер"
+
+#: View/Configurations/admin_email.ctp:64
+msgid "SMTP Settings"
+msgstr "Настройки SMTP"
+
+#: View/Configurations/admin_email.ctp:65
+msgid ""
+"Please enter your SMTP details below. For example, for GMail you need to use "
+"the following data: ssl://smtp.gmail.com (host), 465 (port), your.name@gmail."
+"com (username) and your password. After sending the test-email it is "
+"<strong>important</strong> that you save your changes by clicking \"Save "
+"Configuration\" below."
+msgstr ""
+"Пожалуйста, введите детали соединения с SMTP сервером. Например, для GMail "
+"вам необходимо ввести следующие данные: ssl://smtp.gmail.com (host), 465 "
+"(port), your.name@gmail.com (username) и ваш пароль. После отправки "
+"тестового письма, <strong>очень важно</strong> сохранить изменения нажав "
+"кнопку \"Сохранить настройки\" ниже."
+
+#: View/Configurations/admin_email.ctp:66
+msgid "Host"
+msgstr "Сервер"
+
+#: View/Configurations/admin_email.ctp:67
+msgid "Port"
+msgstr "Порт"
+
+#: View/Configurations/admin_email.ctp:70
+msgid "Test-Email"
+msgstr "Тестовое письмо"
+
+#: View/Configurations/admin_email.ctp:70
+msgid "Send Test-Email"
+msgstr "Отправить тестовое письмо"
+
+#: View/Configurations/admin_email.ctp:73
+msgid "Invitation Email"
+msgstr "Письмо приглашение"
+
+#: View/Configurations/admin_email.ctp:74
+#: View/Projects/admin_prepareinvitation.ctp:120
+msgid "Invitation Email Subject"
+msgstr "Тема письма приглашения"
+
+#: View/Configurations/admin_email.ctp:76;95;111;127
+msgid "--  Insert Placeholder  --"
+msgstr "-- Вставьте метку --"
+
+#: View/Configurations/admin_email.ctp:78;97;113;129
+msgid "Project Name"
+msgstr "Название проекта"
+
+#: View/Configurations/admin_email.ctp:79
+msgid "Project Url"
+msgstr "URL проекта"
+
+#: View/Configurations/admin_email.ctp:80
+msgid "User Email"
+msgstr "Email пользователня"
+
+#: View/Configurations/admin_email.ctp:81
+msgid "Start IsNewUser"
+msgstr "Начало ЕслиНовыйПользователь"
+
+#: View/Configurations/admin_email.ctp:82
+msgid "End IsNewUser"
+msgstr "Конец ЕслиНовыйПользователь"
+
+#: View/Configurations/admin_email.ctp:83 View/Users/admin_add.ctp:31
+#: View/Users/admin_administrators_edit.ctp:33 View/Users/admin_edit.ctp:34
+#: View/Users/admin_view.ctp:42
+msgid "Temporary Password"
+msgstr "Временный пароль"
+
+#: View/Configurations/admin_email.ctp:87;106;122;138
+msgid "Reset to Defaults"
+msgstr "По умолчанию"
+
+#: View/Configurations/admin_email.ctp:88
+#: View/Projects/admin_prepareinvitation.ctp:121
+msgid "Invitation Email Template"
+msgstr "Шаблон письма приглашения"
+
+#: View/Configurations/admin_email.ctp:90
+msgid "Update Notification Emails"
+msgstr "Обновить уведомительный Email"
+
+#: View/Configurations/admin_email.ctp:91
+msgid "Activity Email Subject"
+msgstr "Тема письма \"Действие\"."
+
+#: View/Configurations/admin_email.ctp:93;107
+msgid "Progress Update Email Template"
+msgstr "Шаблон письма о проценте выполнения"
+
+#: View/Configurations/admin_email.ctp:98;114;130
+msgid "Phase Name"
+msgstr "Название этапа"
+
+#: View/Configurations/admin_email.ctp:99;115;131
+msgid "Phase Url"
+msgstr "Url этапа"
+
+#: View/Configurations/admin_email.ctp:100;116;132
+msgid "User"
+msgstr "Пользователь"
+
+#: View/Configurations/admin_email.ctp:101
+msgid "Old Percentage"
+msgstr "Старый процент"
+
+#: View/Configurations/admin_email.ctp:102
+msgid "New Percentage"
+msgstr "Новый процент"
+
+#: View/Configurations/admin_email.ctp:109;123
+msgid "Comment/Task Email Template"
+msgstr "Шаблон письма \"Комментарий/Задача\""
+
+#: View/Configurations/admin_email.ctp:117
+msgid "Comment Type (Comment/Task)"
+msgstr "Тип комментария (Комментарий/Задача)"
+
+#: View/Configurations/admin_email.ctp:118;134
+msgid "Direct Url to Comment"
+msgstr "Прямая ссылка на комментария"
+
+#: View/Configurations/admin_email.ctp:125;139
+msgid "Task Activity Email Template"
+msgstr "Шаблон письма о задачах"
+
+#: View/Configurations/admin_email.ctp:133
+msgid "Task Status (Completed/Uncompleted)"
+msgstr "Статус задачи (Завершена/Не завершена)"
+
+#: View/Configurations/admin_email.ctp:163
+msgid ""
+"Dear {UserName},\\n\\nYou have been invited to join the project "
+"{ProjectName} on our online project management portal.\\n\\nThis will enable "
+"you to participate in following the project's progress as well as allow you "
+"to comment on any of the project's phases.\\n\\nYou can log-on to the "
+"project here: {ProjectUrl}\\n\\nYour username is: {UserEmail}\\n"
+"{StartIsNewUser}\\nYour temporary password is: {TempPassword}\\n\\nPlease "
+"make sure you change your temporary password during your first visit.\\n"
+"{EndIsNewUser}\\n\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+"Здравствуйте {UserName},\\n\\nВы были приглашены в проект {ProjectName} в "
+"нашей онлайн системе project management.\\n\\nЭто позволит вам принять "
+"участие в ходе проекта, а также позволят комментировать любой этап проекта."
+"\\n\\nВы можете войти в систему по слудеющей ссылке: {ProjectUrl}\\n\\nВаше "
+"имя пользователя: {UserEmail}\\n{StartIsNewUser}\\nВаш временный пароль: "
+"{TempPassword}\\n\\nПожалуйста, измените пароль при первом входе в систему."
+"\\n{EndIsNewUser}\\n\\n\\nС уважением,\\n{SystemName}\\n"
+
+#: View/Configurations/admin_email.ctp:165
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} changed the progress of the phase {PhaseName} "
+"from {OldPercentage} to {NewPercentage}.\\n\\nYou can view the affected "
+"project phase here: {PhaseUrl}\\n\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+"Здравствуйте {UserName},\\n                \\nВ проекте {ProjectName} была "
+"некоторая активность.\\n\\n{User} изменил процент выполнения этапа "
+"{PhaseName} с {OldPercentage} до {NewPercentage}.\\n\\nВы можете посмотреть "
+"задействованный этап по следующей ссылке: {PhaseUrl}\\n\\n\\nС уважением,\\n"
+"{SystemName}\\n"
+
+#: View/Configurations/admin_email.ctp:167
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} has created a new {CommentType} in the phase "
+"{PhaseName}.\\n\\nYou can view the {CommentType} here: {CommentUrl}\\n\\n"
+"\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+"Здравствуйте {UserName},\\n                \\nВ проекте {ProjectName} была "
+"некоторая активность.\\n\\n{User} создал новый {CommentType} в этапе "
+"{PhaseName}.\\n\\nВы можете посмотреть {CommentType} по следущей ссылке: "
+"{CommentUrl}\\n\\n\\nС уважением,\\n{SystemName}\\n"
+
+#: View/Configurations/admin_email.ctp:169
+msgid ""
+"Dear {UserName},\\n\\nThere has been some new activity in the project "
+"{ProjectName}.\\n\\n{User} has changed the status of a task in the phase "
+"{PhaseName} to {TaskStatus}.\\n\\nYou can view the task here: {CommentUrl}\\n"
+"\\n\\nKind regards,\\n{SystemName}\\n"
+msgstr ""
+"Здравствуйте {UserName},\\n                \\nВ проекте {ProjectName} была "
+"некоторая активность.\\n\\n{User} изменил статус задачи в этапе {PhaseName} "
+"на {TaskStatus}.\\n\\nВы можете посмотреть задачу по следующей ссылки: "
+"{CommentUrl}\\n\\n\\nС уважением,\\n{SystemName}         \\n"
+
+#: View/Configurations/admin_email.ctp:178
+#: View/Configurations/admin_index.ctp:69
+msgid "Save Configuration"
+msgstr "Сохранить настройки"
+
+#: View/Configurations/admin_index.ctp:39
+msgid "System Information"
+msgstr "Системная информация"
+
+#: View/Configurations/admin_index.ctp:40
+msgid "Version: ClientEngage Project Platform v"
+msgstr "Версия: ClientEngage Project Platform v"
+
+#: View/Configurations/admin_index.ctp:43
+msgid "General Settings"
+msgstr "Глобальные настройки"
+
+#: View/Configurations/admin_index.ctp:46 View/Users/admin_add.ctp:33
+#: View/Users/admin_administrators_add.ctp:33
+#: View/Users/admin_administrators_edit.ctp:35 View/Users/admin_edit.ctp:36
+#: View/Users/profile.ctp:34
+msgid "System Timezone"
+msgstr "Часовой пояс"
+
+#: View/Configurations/admin_index.ctp:47
+msgid "System Logo"
+msgstr "Системный логотип"
+
+#: View/Configurations/admin_index.ctp:47
+msgid ""
+"This is the logo that your clients will see in the front-end. For best "
+"results, please select a logo with a height of 23px."
+msgstr ""
+"Это логотип, который увидят ваши клиенты. Для наилучшего результата, "
+"пожалуйста, загрузите логотип высотой 23px."
+
+#: View/Configurations/admin_index.ctp:49
+msgid "Remove current logo?"
+msgstr "Удалить текущий логотип?"
+
+#: View/Configurations/admin_index.ctp:51
+msgid "Show Newest Comments First"
+msgstr ""
+
+#: View/Configurations/admin_index.ctp:52
+msgid "Maintenance Mode"
+msgstr "Режим обслуживания"
+
+#: View/Configurations/admin_index.ctp:53
+msgid "File Extension Blacklist"
+msgstr "Запрещенные типы файлов"
+
+#: View/Configurations/admin_index.ctp:53
+msgid ""
+"Please enter a comma-separated list of file-extensions that are disallowed "
+"(e.g. \"exe,bat,ext\")"
+msgstr ""
+"Пожалуйста, введите через запятуню расширение файлов, запрещенных к загрузке "
+"(например \"exe,bat,ext\")"
+
+#: View/Configurations/admin_index.ctp:55
+msgid "Image Preview Settings"
+msgstr "Настройки просмотра изображений"
+
+#: View/Configurations/admin_index.ctp:56
+msgid "Maximum Width"
+msgstr "Максимальная ширина"
+
+#: View/Configurations/admin_index.ctp:57
+msgid "Maximum Height"
+msgstr "Максимальная высота"
+
+#: View/Configurations/admin_index.ctp:59
+msgid "Frontend Layout Settings"
+msgstr "Настройки внешнего интерфейса"
+
+#: View/Configurations/admin_index.ctp:60
+msgid "The settings below affect the client-facing frontend only:"
+msgstr "Нижеприведенный настройки отражатся лишь на интерфейсе клиента:"
+
+#: View/Configurations/admin_index.ctp:61
+msgid "Menu Bar Colour"
+msgstr "Цвет фона меню"
+
+#: View/Configurations/admin_index.ctp:62
+msgid "Menu Bar Text"
+msgstr "Цвет текста в меню"
+
+#: View/Configurations/admin_index.ctp:63
+msgid "Link Colour"
+msgstr "Цвет ссылки"
+
+#: View/Configurations/admin_index.ctp:64
+msgid "Use Fluid Layout"
+msgstr "Растягивать сайт на всю ширину экрана"
+
+#: View/Configurations/admin_index.ctp:65
+msgid "Show Powered By"
+msgstr "Показать копирайт \"Powered By\""
+
+#: View/Contents/admin_about.ctp:26
+msgid ""
+"\n"
+"ClientEngage is a fully-featured project management platform which helps you "
+"keep your clients in the loop when working with them.<br /><br />\n"
+"The benefits of ClientEngage are greater interaction with and engagement of "
+"your clients during your development lifecycles.        \n"
+msgstr ""
+"\n"
+"ClientEngage прдеставляет собой полнофункиональную платформу управления "
+"проектами, которая поможет вам взаимодействовать с вашими клиентами в цикле "
+"проекта.<br /><br />\n"
+
+#: View/Elements/comments/comment.ctp:40
+#, fuzzy
+msgid "This comment is hidden from clients"
+msgstr "Показать :num_comments спрятанный комментарий"
+
+#: View/Elements/comments/comment.ctp:73
+msgid "Reply"
+msgstr "Ответить"
+
+#: View/Elements/comments/comment.ctp:66
+msgid "Show :num_comments hidden comment"
+msgid_plural "Show :num_comments hidden comments"
+msgstr[0] "Показать :num_comments спрятанный комментарий"
+msgstr[1] "Показать :num_comments спрятанных комменатрия"
+msgstr[2] "Показать :num_comments спрятанных комментариев"
+
+#: View/Elements/comments/createform.ctp:40
+msgid "Make this a task"
+msgstr "Сделать задачей"
+
+#: View/Elements/comments/createform.ctp:55
+msgid "Add attachments"
+msgstr "Прикрепить файл"
+
+#: View/Elements/comments/createform.ctp:58
+msgid "Attachment"
+msgstr "Прикрепление"
+
+#: View/Elements/comments/createform.ctp:65
+msgid "Add attachment"
+msgstr "Прикрепить файл"
+
+#: View/Elements/common/defaultpagination.ctp:32
+msgid "previous"
+msgstr "предыдущий"
+
+#: View/Elements/common/defaultpagination.ctp:34
+msgid "next"
+msgstr "следующий"
+
+#: View/Elements/common/defaultpagination.ctp:38
+msgid ""
+"<small class=\"smalltext\">Page {:page} of {:pages} (showing {:current} "
+"records out of a total of {:count})</small>"
+msgstr ""
+"<small class=\"smalltext\">Страница {:page} из {:pages} (показано {:current} "
+"записей из {:count})</small>"
+
+#: View/Elements/common/passwordnotification.ctp:25
+msgid "Password Change"
+msgstr "Смена пароля"
+
+#: View/Elements/common/passwordnotification.ctp:26
+msgid ""
+"You are still using the temporary password which was generated for you. "
+"Please change your password:"
+msgstr ""
+"Вы используете временный пароль, созданный автоматически. Пожалуйста, "
+"измените Ваш пароль:"
+
+#: View/Elements/common/passwordnotification.ctp:27
+msgid "Your User Profile"
+msgstr "Ваш профиль"
+
+#: View/Elements/layout/footer.ctp:46 View/Elements/layout/topbar.ctp:77;78
+msgid "About"
+msgstr "О системе"
+
+#: View/Elements/layout/navigationpath.ctp:30
+msgid "You are here:"
+msgstr "Вы здесь:"
+
+#: View/Elements/layout/topbar.ctp:32
+msgid "ClientEngage v:app_version"
+msgstr "ClientEngage v:app_version"
+
+#: View/Elements/layout/topbar.ctp:47
+msgid "Administration"
+msgstr "Управление"
+
+#: View/Elements/layout/topbar.ctp:50;96
+msgid "Dashboard"
+msgstr "Рабочий стол"
+
+#: View/Elements/layout/topbar.ctp:53
+msgid "Manage"
+msgstr "Редактировать"
+
+#: View/Elements/layout/topbar.ctp:54
+msgid "Manage Projects"
+msgstr "Проекты"
+
+#: View/Elements/layout/topbar.ctp:55
+msgid "Manage Clients"
+msgstr "Клиенты"
+
+#: View/Elements/layout/topbar.ctp:56
+msgid "Manage Users"
+msgstr "Пользователи"
+
+#: View/Elements/layout/topbar.ctp:58 View/Notifications/admin_index.ctp:25
+msgid "Notifications"
+msgstr "Напоминания"
+
+#: View/Elements/layout/topbar.ctp:64
+msgid "Finders"
+msgstr "Искать"
+
+#: View/Elements/layout/topbar.ctp:66
+msgid "View Attachments"
+msgstr "Прикрепления"
+
+#: View/Elements/layout/topbar.ctp:67
+msgid "View Tasks"
+msgstr "Задачи"
+
+#: View/Elements/layout/topbar.ctp:75 View/Users/admin_administrators.ctp:29
+msgid "Administrators"
+msgstr "Администраторы"
+
+#: View/Elements/layout/topbar.ctp:76
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: View/Elements/layout/topbar.ctp:89;90
+msgid "Project Calendar"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:91
+msgid "Recent Projects"
+msgstr "Текущие проекты"
+
+#: View/Elements/layout/topbar.ctp:97
+msgid "All Projects"
+msgstr "Все проекты"
+
+#: View/Elements/layout/topbar.ctp:103
+msgid "Favourites"
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:108
+msgid "You currently have no favourite projects."
+msgstr ""
+
+#: View/Elements/layout/topbar.ctp:126
+msgid "Stop Personification"
+msgstr "Прекратить персонализацию"
+
+#: View/Elements/layout/topbar.ctp:128
+msgid "Your profile"
+msgstr "Ваш профиль"
+
+#: View/Elements/layout/topbar.ctp:130
+msgid "Log-out"
+msgstr "Выйти"
+
+#: View/Elements/layout/topbar.ctp:136 View/Projects/search.ctp:25
+msgid "Search..."
+msgstr ""
+
+#: View/Elements/phase/phaseheader.ctp:31
+#: View/Elements/projects/admin_overview.ctp:45
+#: View/Elements/projects/overview.ctp:36 View/Phases/admin_add.ctp:34
+#: View/Phases/admin_edit.ctp:34 View/Projects/admin_view.ctp:52
+#: View/Projects/dashboard.ctp:39
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: View/Elements/phase/phaseheader.ctp:32
+#: View/Elements/projects/admin_overview.ctp:46
+#: View/Elements/projects/overview.ctp:37 View/Phases/admin_add.ctp:35
+#: View/Phases/admin_edit.ctp:35 View/Projects/admin_view.ctp:57
+#: View/Projects/dashboard.ctp:40
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: View/Elements/phase/phaseheader.ctp:33
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: View/Elements/phase/phaseheader.ctp:60
+msgid "Update"
+msgstr "Обновление"
+
+#: View/Elements/phase/phasetabs.ctp:33
+msgid "No phases"
+msgstr "Нет этапов"
+
+#: View/Elements/phase/phasetabs.ctp:38
+msgid "Start:"
+msgstr "Начало:"
+
+#: View/Elements/phase/phasetabs.ctp:38
+msgid "End:"
+msgstr "Конец:"
+
+#: View/Elements/phase/phasetabs.ctp:39 View/Projects/admin_view.ctp:135
+msgid "Duration:"
+msgstr "Продолжительность"
+
+#: View/Elements/projects/admin_overview.ctp:33
+msgid "archived"
+msgstr "в архиве"
+
+#: View/Elements/projects/admin_overview.ctp:40;42
+msgid "Clients:"
+msgstr "Клиенты"
+
+#: View/Elements/projects/admin_overview.ctp:40
+#: View/Helper/LayoutHelper.php:342
+msgid "and"
+msgstr "и"
+
+#: View/Elements/projects/admin_overview.ctp:49
+#: View/Elements/projects/overview.ctp:39
+msgid "Launch Project"
+msgstr "Открыть проект"
+
+#: View/Elements/projects/admin_overview.ctp:101
+#: View/Elements/projects/overview.ctp:91
+msgid "Last activity: :created"
+msgstr "Последняя активность: :created"
+
+#: View/Elements/projects/admin_overview.ctp:103
+#: View/Elements/projects/overview.ctp:93
+msgid "Recent Project Activity"
+msgstr "Текущая активность по проекту"
+
+#: View/Elements/projects/admin_overview.ctp:116
+#: View/Elements/projects/overview.ctp:106
+msgid "Created: :created | Modified: :modified"
+msgstr "Создано: :created | Изменено: :modified"
+
+#: View/Elements/projects/favourite_button.ctp:27
+msgid "Remove from favourites"
+msgstr ""
+
+#: View/Elements/projects/favourite_button.ctp:29
+msgid "Add to favourites"
+msgstr ""
+
+#: View/Helper/AppTimeHelper.php:35
+msgid "never"
+msgstr "никогда"
+
+#: View/Helper/AppTimeHelper.php:77
+msgid ":days day"
+msgid_plural ":days days"
+msgstr[0] ":days день"
+msgstr[1] ":days дня"
+msgstr[2] ":days дней"
+
+#: View/Helper/AppTimeHelper.php:96
+msgid ":days day overdue"
+msgid_plural ":days days overdue"
+msgstr[0] "с опозданием на :days день"
+msgstr[1] "с опозданием на :days дня"
+msgstr[2] "с опозданием на :days дней"
+
+#: View/Helper/AppTimeHelper.php:98
+msgid ":days day remaining"
+msgid_plural ":days days remaining"
+msgstr[0] "остался :days день"
+msgstr[1] "осталось :days дня"
+msgstr[2] "осталось :days дней"
+
+#: View/Helper/LayoutHelper.php:77
+msgid "Yes"
+msgstr "Да"
+
+#: View/Helper/LayoutHelper.php:79
+msgid "No"
+msgstr "Нет"
+
+#: View/Helper/LayoutHelper.php:93
+msgid "The affected record has since been deleted"
+msgstr "Задействованная запись была удалена"
+
+#: View/Helper/LayoutHelper.php:104
+msgid "Are you sure you want to delete this notification?"
+msgstr "Вы хотите удалить данное уведомление?"
+
+#: View/Helper/LayoutHelper.php:108
+msgid ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Created</span> a new element of type <code>:elementtype</code>: <span "
+"class=\"muted\">:title</span>"
+msgstr ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Создал</span> новый <code>:elementtype</code>: <span class=\"muted\">:"
+"title</span>"
+
+#: View/Helper/LayoutHelper.php:136
+msgid ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Updated</span> the field <code>:field</code> of the element <code>:"
+"elementtype</code> from <span class=\"label label-warning\">:oldvalue</span> "
+"to <span class=\"label label-success\">:newvalue</span>: <span class=\"muted"
+"\">:title</span>"
+msgstr ""
+"<span class=\"label\" data-rel=\"tooltip\" data-original-title=\":created\">:"
+"date:</span><br />:username<br />:prefixinfo<span class=\"label label-inverse"
+"\">Обновил</span> поле <code>:field</code> элемента <code>:elementtype</"
+"code> с <span class=\"label label-warning\">:oldvalue</span> на <span class="
+"\"label label-success\">:newvalue</span>: <span class=\"muted\">:title</span>"
+
+#: View/Helper/LayoutHelper.php:247;282
+msgid "Edit"
+msgstr "Редактировать"
+
+#: View/Helper/LayoutHelper.php:249
+msgid "Add Phase"
+msgstr ""
+
+#: View/Helper/LayoutHelper.php:252;285
+msgid ""
+"Are you sure you want to proceed with the deletion? This will also delete "
+"all associated records and cannot be undone."
+msgstr ""
+"Вы уверены что хотите удалить? Эта процедура удалит все связанный записи и "
+"не может быть отменена."
+
+#: View/Helper/LayoutHelper.php:342
+msgid "Blacklisted file extensions: "
+msgstr "Запрещенные типы файлов:"
+
+#: View/Helper/LayoutHelper.php:395
+msgid "File type: :extension"
+msgstr "Тип файла: :extension"
+
+#: View/Helper/LayoutHelper.php:411
+msgid "Open \":website_url\" in a new window"
+msgstr "Открыть \":website_url\" в новом окне"
+
+#: View/Helper/LayoutHelper.php:415
+msgid "Original file name: "
+msgstr "Оригинальное имя файла:"
+
+#: View/Helper/LayoutHelper.php:486;517
+msgid "Picture of :username"
+msgstr "Аватарка :username"
+
+#: View/Helper/LayoutHelper.php:535
+msgid "Currently online"
+msgstr "Сейчас online"
+
+#: View/Helper/LayoutHelper.php:538
+msgid "Not currently online"
+msgstr "Не в сети"
+
+#: View/Helper/LayoutHelper.php:538
+msgid "Last seen: "
+msgstr "Здесь был:"
+
+#: View/Helper/LayoutHelper.php:555
+msgid "View Profile"
+msgstr "Посмотреть профиль"
+
+#: View/Helper/LayoutHelper.php:558
+msgid "Personify User"
+msgstr "Персонализировать пользователя"
+
+#: View/Helper/LayoutHelper.php:599
+msgid "overdue"
+msgstr "просрочено"
+
+#: View/Helper/LayoutHelper.php:602
+msgid "running"
+msgstr "выполняется"
+
+#: View/Helper/LayoutHelper.php:605
+msgid "waiting"
+msgstr "ожидает"
+
+#: View/Layouts/project.ctp:78
+msgid "Project Archived"
+msgstr "Проект в архиве"
+
+#: View/Layouts/project.ctp:79
+msgid "This project was archived and you cannot perform any changes."
+msgstr "Этот проэк находится в архиве, Вы не можете вносить изменения."
+
+#: View/Notifications/admin_index.ctp:32 View/Projects/admin_view.ctp:24
+msgid "Project"
+msgstr "Проект"
+
+#: View/Notifications/admin_index.ctp:35
+msgid "Action"
+msgstr "Действие"
+
+#: View/Notifications/admin_index.ctp:36
+msgid "Field"
+msgstr "Поле"
+
+#: View/Notifications/admin_index.ctp:37
+msgid "Old Value"
+msgstr "Старое значение"
+
+#: View/Notifications/admin_index.ctp:38
+msgid "New Value"
+msgstr "Новое значение"
+
+#: View/Notifications/admin_index.ctp:39
+msgid "Date"
+msgstr "Дата"
+
+#: View/Notifications/admin_index.ctp:50
+msgid "Currently, no notifications exist."
+msgstr "В данный момент, нет ни одного уведомления."
+
+#: View/Phases/admin_add.ctp:26
+msgid "Add Phase to :project_title"
+msgstr "Добавить этап к :project_title"
+
+#: View/Phases/admin_add.ctp:30 View/Phases/admin_edit.ctp:32
+msgid "Allow Clients to Update Progress"
+msgstr "Разрешить клиентам изменять процент выполнения"
+
+#: View/Phases/admin_add.ctp:32
+msgid "The previous phase ends on :date"
+msgstr "Предыдущий этап заканчивается :date"
+
+#: View/Phases/admin_add.ctp:63 View/Users/admin_add.ctp:39
+msgid "Save & Exit"
+msgstr "Сохранить и выйти"
+
+#: View/Phases/admin_add.ctp:64 View/Users/admin_add.ctp:40
+msgid "Save & Add New"
+msgstr "Сохранить и добавить новый"
+
+#: View/Phases/admin_add.ctp:65
+msgid "Cancel / Back to Project"
+msgstr "Отмена / Вернуться в проект"
+
+#: View/Phases/admin_edit.ctp:26
+msgid "Edit Phase"
+msgstr "Редактировать этап"
+
+#: View/Phases/admin_edit.ctp:30 View/Projects/admin_edit.ctp:39
+#: View/Projects/admin_index.ctp:48
+#: View/Projects/admin_prepareinvitation.ctp:47
+#: View/Projects/admin_view.ctp:32
+msgid "Url"
+msgstr "Url"
+
+#: View/Phases/admin_edit.ctp:71
+msgid "View Phase"
+msgstr "Просмотр этапа"
+
+#: View/Phases/admin_edit.ctp:72
+msgid "Are you sure you want to delete # %s?"
+msgstr "Вы уверены, что хотите удалить # %s?"
+
+#: View/Phases/admin_edit.ctp:73
+msgid "Back to Project"
+msgstr "Вернутся в Проект"
+
+#: View/Projects/admin_add.ctp:29 View/Projects/admin_edit.ctp:29
+#: View/Projects/admin_prepareinvitation.ctp:29
+msgid "No results matched"
+msgstr ""
+
+#: View/Projects/admin_add.ctp:35
+msgid "Add Project"
+msgstr "Добавить Проект"
+
+#: View/Projects/admin_add.ctp:39 View/Projects/admin_edit.ctp:43
+#: View/Projects/dashboard.ctp:43
+msgid "Project Members"
+msgstr "Участники проекта"
+
+#: View/Projects/admin_add.ctp:39 View/Projects/admin_edit.ctp:43
+#, fuzzy
+msgid "Select clients"
+msgstr "Удалить клиента"
+
+#: View/Projects/admin_add.ctp:43
+msgid "Create Project"
+msgstr "Создать проект"
+
+#: View/Projects/admin_edit.ctp:35 View/Projects/admin_view.ctp:92
+msgid "Edit Project"
+msgstr "Редактировать Проект"
+
+#: View/Projects/admin_edit.ctp:41 View/Projects/admin_view.ctp:67
+msgid "Archived"
+msgstr "В архиве"
+
+#: View/Projects/admin_edit.ctp:56
+msgid "View Project"
+msgstr "Открыть проект"
+
+#: View/Projects/admin_edit.ctp:58
+msgid "List Projects"
+msgstr "Список проектов"
+
+#: View/Projects/admin_index.ctp:26
+msgid "New Project"
+msgstr "Новый проект"
+
+#: View/Projects/admin_index.ctp:51
+#: View/Projects/admin_prepareinvitation.ctp:62
+#: View/Projects/admin_view.ctp:47;111
+msgid "% Completed"
+msgstr "% Завершено"
+
+#: View/Projects/admin_index.ctp:58;60
+msgid "Show Archived"
+msgstr "Показать архивированные"
+
+#: View/Projects/admin_index.ctp:75
+msgid "Currently, no projects exist."
+msgstr "На данный момент нет ни одного проекта"
+
+#: View/Projects/admin_move.ctp:26;36 View/Projects/admin_view.ctp:98
+#, fuzzy
+msgid "Move Project"
+msgstr "Новый проект"
+
+#: View/Projects/admin_move.ctp:27
+msgid ""
+"Please select either the new start- or the new end date. You cannot select "
+"both at the same time."
+msgstr ""
+
+#: View/Projects/admin_move.ctp:29
+#, fuzzy
+msgid "Current Start Date"
+msgstr "Дата начала"
+
+#: View/Projects/admin_move.ctp:30
+#, fuzzy
+msgid "Current End Date"
+msgstr "Дата окончания"
+
+#: View/Projects/admin_move.ctp:31
+#, fuzzy
+msgid "New Start Date"
+msgstr "Дата начала"
+
+#: View/Projects/admin_move.ctp:32
+#, fuzzy
+msgid "New End Date"
+msgstr "Дата окончания"
+
+#: View/Projects/admin_prepareinvitation.ctp:40
+msgid "Prepare Project Invitation Email"
+msgstr "Подготовить Email приглашение в проект"
+
+#: View/Projects/admin_prepareinvitation.ctp:67
+msgid "Date Start"
+msgstr "Дата начала"
+
+#: View/Projects/admin_prepareinvitation.ctp:72
+msgid "Date End"
+msgstr "Дата окончания"
+
+#: View/Projects/admin_prepareinvitation.ctp:77
+#: View/Projects/admin_view.ctp:62
+msgid "Project Duration"
+msgstr "Длительность проекта"
+
+#: View/Projects/admin_prepareinvitation.ctp:99
+msgid "Back to Overview"
+msgstr "Вернутся в Обзор"
+
+#: View/Projects/admin_prepareinvitation.ctp:106
+msgid "Invitation Settings"
+msgstr "Настройки приглашения"
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+msgid "Recipients"
+msgstr "Получатели"
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+msgid "Select all"
+msgstr ""
+
+#: View/Projects/admin_prepareinvitation.ctp:119
+#, fuzzy
+msgid "Select recipients"
+msgstr "Получатели"
+
+#: View/Projects/admin_prepareinvitation.ctp:125
+msgid "Send Invitations"
+msgstr "Отправить приглашения"
+
+#: View/Projects/admin_view.ctp:90
+msgid "Launch"
+msgstr "Запустить"
+
+#: View/Projects/admin_view.ctp:91
+msgid "Prepare Invitation Email"
+msgstr "Подготовить приглашение"
+
+#: View/Projects/admin_view.ctp:93
+msgid "Delete Project"
+msgstr "Удалить проект"
+
+#: View/Projects/admin_view.ctp:94
+msgid "Back to Project Overview"
+msgstr "Вернутся к обзору проекта"
+
+#: View/Projects/admin_view.ctp:97
+msgid "Duplicate Project"
+msgstr "создать копию проекта"
+
+#: View/Projects/admin_view.ctp:104
+msgid "Project Phases"
+msgstr "Этапы проекта"
+
+#: View/Projects/admin_view.ctp:108
+msgid "No."
+msgstr "Нет."
+
+#: View/Projects/admin_view.ctp:112
+msgid "Timings"
+msgstr "Сроки"
+
+#: View/Projects/admin_view.ctp:113 View/Projects/search.ctp:72
+#: View/Projects/search_comments.ctp:25
+#: View/Projects/search_suggestions.ctp:43
+msgid "Comments"
+msgstr "Комментарии"
+
+#: View/Projects/admin_view.ctp:133
+msgid "Start Date:"
+msgstr "Дата начала:"
+
+#: View/Projects/admin_view.ctp:134
+msgid "End Date:"
+msgstr "Дата окончания:"
+
+#: View/Projects/admin_view.ctp:151
+msgid "Add Phase to This Project"
+msgstr "Добавить этап к этому проекту"
+
+#: View/Projects/admin_view.ctp:155
+msgid "Associated Clients"
+msgstr "Связанные клиенты"
+
+#: View/Projects/admin_view.ctp:183
+msgid "Create a New Client"
+msgstr "Создать нового клиента"
+
+#: View/Projects/admin_view.ctp:184
+msgid "Manage Associated Clients"
+msgstr "Управление связанными клиента"
+
+#: View/Projects/dashboard.ctp:44
+msgid "No clients have been assigned ot this project."
+msgstr "Небыло привязано ни одного клиента к данному проекту."
+
+#: View/Projects/dashboard.ctp:48
+msgid "No users"
+msgstr "Нет пользователей"
+
+#: View/Projects/dashboard.ctp:55
+msgid "Project History"
+msgstr "История проекта"
+
+#: View/Projects/history.ctp:34 View/Projects/phase.ctp:271
+msgid "Discussion, Tasks & Attachments"
+msgstr "Обсуждения, Задачи и Прикрепления"
+
+#: View/Projects/history.ctp:35 View/Projects/phase.ctp:272
+msgid "Phase History"
+msgstr "История этапа"
+
+#: View/Projects/index.ctp:24
+msgid "Projects of :clientname"
+msgstr "Проект :clientname"
+
+#: View/Projects/phase.ctp:32
+msgid "Type"
+msgstr "Тип"
+
+#: View/Projects/phase.ctp:121
+msgid "Please enter a comment."
+msgstr "Пожалуйста введите комментарий."
+
+#: View/Projects/phase.ctp:278
+msgid "Toggle comment threads"
+msgstr "Показать комментарии"
+
+#: View/Projects/phase.ctp:279
+msgid "Show tasks only"
+msgstr ""
+
+#: View/Projects/phase.ctp:286;296
+msgid "New comment"
+msgstr "Новый комментарий"
+
+#: View/Projects/search.ctp:25
+msgid "Search"
+msgstr ""
+
+#: View/Projects/search.ctp:46
+#, fuzzy
+msgid "Search all Projects"
+msgstr "Все проекты"
+
+#: View/Projects/search.ctp:67
+msgid "Search all Phases"
+msgstr ""
+
+#: View/Projects/search.ctp:91
+#, fuzzy
+msgid "Search all Comments"
+msgstr "Прямая ссылка на комментария"
+
+#: View/Projects/search.ctp:96 View/Projects/search_suggestions.ctp:53
+msgid "No results..."
+msgstr ""
+
+#: View/Projects/search.ctp:101 View/Projects/search_comments.ctp:50
+#: View/Projects/search_phases.ctp:47 View/Projects/search_projects.ctp:47
+#, fuzzy
+msgid "The search-query has to have at least two characters."
+msgstr "Не менее 4 символов"
+
+#: View/Users/admin_add.ctp:28 View/Users/admin_edit.ctp:29
+msgid "- Please select -"
+msgstr "- Выберите -"
+
+#: View/Users/admin_add.ctp:28 View/Users/admin_edit.ctp:29
+msgid "Available Clients"
+msgstr "Доступные клиенты"
+
+#: View/Users/admin_add.ctp:35 View/Users/admin_administrators_add.ctp:35
+#: View/Users/admin_administrators_edit.ctp:37
+#: View/Users/admin_administrators_view.ctp:42 View/Users/admin_edit.ctp:38
+#: View/Users/admin_view.ctp:52 View/Users/profile.ctp:35
+msgid "Receive Email Notifications?"
+msgstr ""
+
+#: View/Users/admin_administrators.ctp:26
+msgid "New Administrator"
+msgstr "Новый администратор"
+
+#: View/Users/admin_administrators.ctp:35
+#: View/Users/admin_administrators_edit.ctp:38
+#: View/Users/admin_administrators_view.ctp:47 View/Users/admin_edit.ctp:39
+#: View/Users/admin_index.ctp:36 View/Users/admin_view.ctp:57
+#: View/Users/profile.ctp:36
+msgid "User Image"
+msgstr "Аватарка"
+
+#: View/Users/admin_administrators_add.ctp:26
+msgid "Add Administrator"
+msgstr "Добавить администратора"
+
+#: View/Users/admin_administrators_add.ctp:39
+msgid "Create Administrator"
+msgstr "Создать администратора"
+
+#: View/Users/admin_administrators_edit.ctp:26
+#: View/Users/admin_administrators_view.ctp:74
+msgid "Edit Administrator"
+msgstr "Редактировать администратора"
+
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Password "
+msgstr "пароль"
+
+#: View/Users/admin_administrators_edit.ctp:31 View/Users/admin_edit.ctp:32
+#: View/Users/profile.ctp:31
+msgid "Please leave empty if you do not wish you change your password."
+msgstr "Пожалуйста, оставьте поле пустым, если не хотите менять ваш пароль."
+
+#: View/Users/admin_administrators_edit.ctp:40 View/Users/admin_edit.ctp:41
+#: View/Users/profile.ctp:38
+msgid "Remove current user image?"
+msgstr "Удалить текущую аватарку?"
+
+#: View/Users/admin_administrators_edit.ctp:53
+msgid "View Administrator"
+msgstr "Посмотреть администраторов"
+
+#: View/Users/admin_administrators_edit.ctp:54
+#: View/Users/admin_administrators_view.ctp:75
+msgid "Delete Administrator"
+msgstr "Удалить администратора"
+
+#: View/Users/admin_administrators_edit.ctp:55
+#: View/Users/admin_administrators_view.ctp:76
+msgid "List Administrators"
+msgstr "Список администраторов"
+
+#: View/Users/admin_administrators_view.ctp:24
+msgid "Administrator Profile"
+msgstr "Профиль администратора"
+
+#: View/Users/admin_edit.ctp:26 View/Users/admin_view.ctp:84
+msgid "Edit User"
+msgstr "Редактировать пользователя"
+
+#: View/Users/admin_edit.ctp:54
+msgid "View User"
+msgstr "Открыть пользователя"
+
+#: View/Users/admin_edit.ctp:56 View/Users/admin_view.ctp:86
+msgid "List Users"
+msgstr "Список пользователей"
+
+#: View/Users/admin_index.ctp:26
+msgid "New User"
+msgstr "Новый пользователь"
+
+#: View/Users/admin_index.ctp:29
+msgid "Users"
+msgstr "Пользователи"
+
+#: View/Users/admin_index.ctp:61
+msgid "Currently, no users exist."
+msgstr "На данный момент, нет ни одного пользователя."
+
+#: View/Users/admin_login.ctp:59 View/Users/login.ctp:57
+msgid "Remember me for 2 weeks"
+msgstr ""
+
+#: View/Users/admin_login.ctp:62 View/Users/login.ctp:60
+#, fuzzy
+msgid "Forgot your password?"
+msgstr "Введите Ваш пароль"
+
+#: View/Users/admin_view.ctp:24
+msgid "User Profile"
+msgstr "Профиль"
+
+#: View/Users/admin_view.ctp:44
+msgid "Already reset"
+msgstr "Уже сброшено"
+
+#: View/Users/admin_view.ctp:85
+msgid "Delete User"
+msgstr "Удалить пользователя"
+
+#: View/Users/admin_view.ctp:92
+#, fuzzy
+msgid "Recent Activity"
+msgstr "Текущая активность по проекту"
+
+#: View/Users/forgotten_password.ctp:51;56
+#, fuzzy
+msgid "Reset Password"
+msgstr "Пароль"
+
+#: View/Users/profile.ctp:26
+msgid "Edit Your Profile"
+msgstr "Редактировать профиль"
+
+#: View/Users/profile.ctp:42
+msgid "Save Profile"
+msgstr "Сохранить"
+
+#: Model/Attachment.php:validation for field phase_id
+msgid "Please select the phase."
+msgstr "Пожалуйста, выберите этап."
+
+#: Model/Attachment.php:validation for field type
+msgid "You have to select an attachment type."
+msgstr "Вам необходимо выбрать тип прикрепления."
+
+#: Model/Attachment.php:validation for field type
+msgid "Please select a valid attachment type."
+msgstr "Пожалуйста, выберите подходящий тип прикрепления."
+
+#: Model/Client.php:validation for field title
+msgid "Please enter the name of the client."
+msgstr "Пожалуйста введите имя клиента."
+
+#: Model/Client.php:validation for field user_count Model/Phase.php:validation
+#: comment_count Model/Project.php:validation phase_count
+msgid "Please enter a valid integer."
+msgstr "Пожалуйста введите целое число."
+
+#: Model/Comment.php:validation for field phase_id
+msgid "Please select a phase."
+msgstr "Пожалуйста, выберите этап."
+
+#: Model/Comment.php:validation for field content
+msgid "Please enter a comment"
+msgstr "Пожалуйста, введите комментарий."
+
+#: Model/Comment.php:validation for field needsaction
+msgid "Please indicate whether this comment is a task."
+msgstr "Пожалуйста, определите является ли комментарий задачей."
+
+#: Model/Comment.php:validation for field priority
+msgid "Please select a priority."
+msgstr "Пожалуйста, выберите приоритет."
+
+#: Model/Comment.php:validation for field priority
+msgid "Please select a valid priority."
+msgstr "Пожалуйста, выберите правильный приорите."
+
+#: Model/Configuration.php:validation for field System-name
+msgid "Please enter the name of the system."
+msgstr "Пожалуйста, введите название системы."
+
+#: Model/Configuration.php:validation for field System-language
+msgid "Please select the system language."
+msgstr "Пожалуйста, выберите язык интерфейса."
+
+#: Model/Configuration.php:validation for field System-timezone
+msgid "Please select the system timezone."
+msgstr "Пожалуйста, выберите часовой пояс."
+
+#: Model/Configuration.php:validation for field System-logo_name
+#: Model/User.php:validation avatarpath
+msgid "Please upload a valid image."
+msgstr "Пожалуйста, загрузите правильное изображение."
+
+#: Model/Configuration.php:validation for field System-maintenance;validation
+#: Email-checked_default;validation Layout-fluid
+msgid "Please indicate a valid boolean value."
+msgstr "Пожалуйста, определите верное значение."
+
+#: Model/Configuration.php:validation for field Uploads-extension_blacklist
+msgid "Please enter the extension blacklist"
+msgstr "Пожалуйста, введите запрещенные расширения прикреплений."
+
+#: Model/Configuration.php:validation for field Email-email
+msgid "Please enter an email address."
+msgstr "Пожалуйста, укажите email."
+
+#: Model/Configuration.php:validation for field Email-email
+#: Model/User.php:validation email
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите правильный email."
+
+#: Model/Configuration.php:validation for field Email-sender
+msgid "Please enter a sender name."
+msgstr "Пожалуйста, введите имя отправителя."
+
+#: Model/Configuration.php:validation for field Email-invitationtext_text
+msgid "Please enter an email invitation template."
+msgstr "Пожалуйста, введите шаблон письма приглашения."
+
+#: Model/Configuration.php:validation for field Email-invitationtext_text
+msgid "Please review the invitation email template."
+msgstr "Пожалуйста, опишите шаблон письма приглашения."
+
+#: Model/Configuration.php:validation for field Email-invitationsubject
+msgid "Please enter the email invitation subject"
+msgstr "Пожалуйста, введите тему письма приглашения."
+
+#: Model/Configuration.php:validation for field Email-activity_subject
+msgid "Please enter the activity email subject"
+msgstr "Пожалуйста, введите тему письма."
+
+#: Model/Configuration.php:validation for field
+#: Email-progressactivity_text;validation
+#: Email-commentactivity_text;validation Email-taskactivity_text
+msgid "Please enter an email template."
+msgstr "Пожалуйста, введите шаблон email."
+
+#: Model/Configuration.php:validation for field Color-topbar_fill;validation
+#: Color-topbar_text;validation Color-link
+msgid "This is not a valid colour."
+msgstr "Это не правильный цвет."
+
+#: Model/Configuration.php:validation for field Misc-showpoweredby
+msgid "Please enter a valid boolean value."
+msgstr "Пожалуйста, введите верное значение."
+
+#: Model/Configuration.php:validation for field Preview-max_width;validation
+#: Preview-max_height
+msgid "Please enter a valid number."
+msgstr "Пожалуйста, введите число."
+
+#: Model/Phase.php:validation for field project_id
+msgid "Please select a project."
+msgstr "Пожалуйста, выберите проект."
+
+#: Model/Phase.php:validation for field title Model/Project.php:validation
+msgid "Please enter a name."
+msgstr "Пожалуйста, введите имя."
+
+#: Model/Phase.php:validation for field title Model/Project.php:validation
+msgid "Please enter less than 240 characters."
+msgstr "Пожалуйста, введите не более 240 символов."
+
+#: Model/Phase.php:validation for field slug Model/Project.php:validation
+msgid "Please enter a valid Url segment."
+msgstr "Пожалуйста, введите корректный URL сегмент."
+
+#: Model/Phase.php:validation for field slug
+msgid "This Url has already been taken."
+msgstr "Данный URL уже занят."
+
+#: Model/Phase.php:validation for field percent_completed
+msgid "Please enter a valid percentage."
+msgstr "Пожалуйста, введите корректный процент."
+
+#: Model/Phase.php:validation for field date_start;validation date_end
+msgid "Please enter a valid date (yyyy-mm-dd)."
+msgstr "Пожалуйста, введите дату (ГГГГ-ММ-ДД)."
+
+#: Model/Phase.php:validation for field date_end
+msgid "The end date has to be on or after the start date"
+msgstr "Дата окончания должна быть не раньше даты начала"
+
+#: Model/Project.php:validation for field slug
+msgid "This URL has already been taken"
+msgstr "Данный URL занят"
+
+#: Model/User.php:validation for field client_id
+msgid "Please select a client."
+msgstr "Выберите клиента"
+
+#: Model/User.php:validation for field username
+msgid "Please enter a username."
+msgstr "Пожалуйста, введите имя пользователя."
+
+#: Model/User.php:validation for field email
+msgid "This email address has already been taken."
+msgstr "Данный email занят."
+
+#: Model/User.php:validation for field password
+msgid "Please enter your password."
+msgstr "Введите Ваш пароль"
+
+#: Model/User.php:validation for field password;validation password_confirm
+msgid "Passwords do not match."
+msgstr "Пароли не совпадают"
+
+#: Model/User.php:validation for field password;validation password_confirm
+msgid "Must be at least 4 characters long."
+msgstr "Не менее 4 символов"
+
+#: Model/User.php:validation for field temp_password
+msgid "Please enter a temporary password."
+msgstr "Пожалуйста, введите временный пароль."
+
+#: Model/User.php:validation for field role
+msgid "Please select the user type."
+msgstr "Выберите тип пользователя"
+
+#: Model/User.php:validation for field role
+msgid "Please select a valid role."
+msgstr "Пожалуйста, выберите роль."
+
+#: Model/User.php:validation for field active
+msgid "Please indicate whether this user is activated."
+msgstr "Пожалуйста, определите активен ли пользователь."
+
+#: Model/User.php:validation for field language
+msgid "Please select the language."
+msgstr "Выберите язык"
+
+#: Model/User.php:validation for field timezone
+msgid "Please select the timezone."
+msgstr "Выберите часовой пояс"
+
+#~ msgid "The database was already initialised. Please continue."
+#~ msgstr "База данных уже инициализированна. Пожалуйста, продолжите."
+
+#~ msgid "notempty"
+#~ msgstr "не пустой"
